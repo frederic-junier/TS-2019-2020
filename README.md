@@ -13,5 +13,9 @@ Documents pour ma  classe de terminale S
 
 * Complexes :
   - [Exercices complémentaires](Complexes/Complements/ComplexesExercicesComplementaires.pdf)
+  
+* Logarithme :
+
+  - [Exemples de graphiques avec échelle semi-logarithmique](Logarithme/TS_Logarithme_decimal.pdf)
 
 
