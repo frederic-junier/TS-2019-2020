@@ -20,7 +20,7 @@ Documents pour ma  classe de terminale S
   
 * Complexes (partie 2) :
   
-  - [Corrigés d'exemples du cours](ComplexesPartie2/Corrigés d'exemples du cours)
-  - [Corrigés d'exercices de la fiche 2](ComplexesPartie2/Corrigés d'exercices de la fiche 2)
+  - [Corrigés d'exemples du cours](ComplexesPartie2/Corrige-Cours-ComplexesPartie2-2019.pdf)
+  - [Corrigés d'exercices de la fiche 2](ComplexesPartie2/CorrigeFiche2.pdf)
 
 
