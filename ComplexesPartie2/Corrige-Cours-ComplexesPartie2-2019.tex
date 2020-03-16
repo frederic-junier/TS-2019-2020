@@ -585,7 +585,109 @@ En déduire les formes algébriques et exponentielles de $a'= \text{j}a$, $b'= \
 \end{frame}
 
 
+\begin{frame}
 
+
+\frametitle{Exemple 8 : Question 1 (source : APMEP)}
+
+\label{exemple8}
+
+ Donnons la forme algébrique de $Z$:
+$Z = \dfrac{z_1}{z_2} = \dfrac{z_1 \times \overline{z_2}}{z_2 \times \overline{z_2}} = \dfrac{z_1 \times \overline{z_2}}{\big|z_2\big|^2}$ donc
+
+$Z = \dfrac{(1 - \i)(-8 +8\sqrt{3}\i)}{(-8)^2 + (-8\sqrt{3})^2} = \dfrac{-8 + 8\sqrt{3}\i + 8\i -8\sqrt{3}\i^2 }{8^2 + 3\times 8^2} = \dfrac{(-8 + 8\sqrt{3}) + \i (8 + 8\sqrt{3})}{4 \times 8^2}$
+
+
+$Z = \dfrac{-1 + \sqrt{3}}{32} + \i \dfrac{1 + \sqrt{3}}{32}$ 
+
+Comme les deux nombres  $\dfrac{-1 + \sqrt{3}}{32}$ et $\dfrac{1 + \sqrt{3}}{32}$ sont réels, cette dernière expression est la forme algébrique de $Z$.
+\end{frame}
+
+
+\begin{frame}
+
+
+\frametitle{Exemple 8 : Question 2 (source : APMEP)}
+
+
+On a : $\big|z_1\big|= \sqrt{1^2 + (-1)^2} = \sqrt{2}$ et $\big|z_2\big|= \sqrt{4 \times 8^2} = 16$ (en réutilisant ce que l'on avait déjà calculé à la question \textbf{1.}).
+	
+	Si on note $\theta_1$ et $\theta_2$ les arguments respectifs de $z_1$ et $z_2$, on a :
+	
+	$\left\{\begin{array}{l}
+	\cos(\theta_1) = \dfrac{1}{\sqrt{2}} = \dfrac{\sqrt{2}}{2} \\ \sin(\theta_1) = \dfrac{-1}{\sqrt{2}} = \dfrac{-\sqrt{2}}{2} 	\end{array} \right .$\quad donc on a $\theta_1 = -\dfrac{\pi}{4} \quad (2\pi)$ \qquad
+	puis
+	
+	$\left\{\begin{array}{l}
+	\cos(\theta_2) = \dfrac{-8}{16} = \dfrac{-1}{2} \\ \sin(\theta_2) = \dfrac{-8\sqrt{3}}{16} = \dfrac{-\sqrt{3}}{2} 	\end{array} \right .$ \quad donc on a $\theta_2 = \pi + \dfrac{\pi}{3} = \dfrac{5\pi}{3} = \dfrac{-2\pi}{3}\quad (2\pi)$.
+	
+	
+\end{frame}
+
+
+\begin{frame}
+
+
+\frametitle{Exemple 8 : Question 3 (source : APMEP)}
+ $Z$ sous forme exponentielle donne : $Z = \dfrac{\sqrt{2}\e^{-\i\frac{\pi}{4}}}{16\e^{-\i\frac{2\pi}{3}}} = \dfrac{\sqrt{2}}{16} \e^{-\i\frac{\pi}{4} - \i\frac{-2\pi}{3}} = \dfrac{\sqrt{2}}{16} \e^{\i\frac{-3\pi}{12} + \i\frac{8\pi}{12}}$
+
+Finalement, la forme exponentielle de $Z$ est $Z = \dfrac{\sqrt{2}}{16} \e^{\i\frac{5\pi}{12}}$
+
+
+Et donc, une forme trigonométrique est $Z = \dfrac{\sqrt{2}}{16} \left(\cos \dfrac{5\pi}{12} + \i \sin\dfrac{5\pi}{12}\right) $
+
+\end{frame}
+
+\begin{frame}
+
+
+\frametitle{Exemple 8 : Question 4 (source : APMEP)}
+
+On en déduit que $\cos \left( \dfrac{5\pi}{12} \right) = \dfrac{\mathcal{R}\!e(Z)}{\big|Z \big|} = \dfrac{\dfrac{-1+\sqrt{3}}{32}}{\dfrac{\sqrt{2}}{16}} = \dfrac{-1 + \sqrt{3}}{32} \times \dfrac{16}{\sqrt{2} } = \dfrac{-1 + \sqrt{3}}{2 \times \sqrt{2}} $
+
+$\cos \left( \dfrac{5\pi}{12} \right) = \dfrac{(-1 + \sqrt{3}) \times \sqrt{2}}{2 \times 2} = \dfrac{-\sqrt{2} + \sqrt{6}}{4}$.
+
+Finalement, on a bien $\cos \left( \dfrac{5\pi}{12} \right) =  \dfrac{\sqrt{6} -\sqrt{2} }{4}$.
+
+\end{frame}
+
+\begin{frame}
+
+
+\frametitle{Exemple 8 : Question 5 (source : APMEP)}
+
+On va nommer $(E)$ l'équation à résoudre : 
+
+$(E) : \left(\sqrt{6} - \sqrt{2}\right) \cos x - \left(\sqrt{6} + \sqrt{2}\right) \sin x = -2\sqrt{3}.$
+
+\renewcommand{\arraystretch}{1.9}
+\begin{tabular}{@{}l@{$~\iff~$}l}
+	$(E)$&$ \dfrac{\left(\sqrt{6} - \sqrt{2}\right) \cos x - \left(\sqrt{6} + \sqrt{2}\right) \sin x}{4} = \dfrac{-2\sqrt{3}}{4}$\\
+	&$\dfrac{\sqrt{6} - \sqrt{2}}{4} \cos x - \dfrac{\sqrt{6} + \sqrt{2}}{4} \sin x = \dfrac{-\sqrt{3}}{2}$\\
+	&$\cos\left( \dfrac{5\pi}{12} \right) \cos x - \sin\left( \dfrac{5\pi}{12} \right) \sin x = \cos\left(\pi + \dfrac{\pi}{6}\right) $\\
+	&$\cos\left( \dfrac{5\pi}{12} + x \right) = \cos\left( \dfrac{7\pi}{6}\right) $ 
+	
+\end{tabular}
+
+en appliquant la formule rappelée dans l'énoncé
+
+\end{frame}
+
+
+\begin{frame}
+
+
+\frametitle{Exemple 8 : Question 5 (fin, source : APMEP))}
+
+\begin{tabular}{@{}l@{$~\iff~$}l}
+
+	&$\dfrac{5\pi}{12} + x = \dfrac{7\pi}{6} \quad (2\pi)$\quad ou \quad$\dfrac{5\pi}{12} + x = - \dfrac{7\pi}{6} \quad (2\pi)$\\
+	&$x = \dfrac{14\pi}{12} - \dfrac{5\pi}{12}  \quad (2\pi)$\quad ou \quad$ x = - \dfrac{14\pi}{12}  - \dfrac{5\pi}{12} \quad (2\pi)$\\
+	&$x = \dfrac{9\pi}{12} = \dfrac{3\pi}{4}\quad (2\pi)$ \quad ou \quad $x = \dfrac{-19\pi}{12} = \dfrac{5\pi}{12}\quad (2\pi)$
+\end{tabular}
+
+Finalement, l'ensemble $\mathcal{S}$ des solutions de $(E)$ est donc $\mathcal{S} = \left\{ \dfrac{3\pi}{4} + 2k\pi ; \dfrac{5\pi}{12} + 2k\pi \Big| k \in \mathbb{Z} \right\} $
+\end{frame}
 
 
 
