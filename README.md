@@ -24,6 +24,7 @@ Documents pour ma  classe de terminale S
   - [Corrigés d'exercices de la fiche 2](ComplexesPartie2/CorrigeFiche2.pdf)
   
 * Continuité pédagogique :
+
   -[Séance du 16-03-2020](seance-16-03-2020.md)
 
 
