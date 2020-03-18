@@ -305,12 +305,14 @@ _{\substack{x \to #1 \\ x > #1 }} #2}
 %%%%%%%%%%%%%%%Calcul intégral%%%%%%
 \newcommand{\dx}{\ensuremath{\text{d}x}}		% dx
 \newcommand{\dt}{\ensuremath{\text{d}t}}		% dt
+\newcommand{\du}{\ensuremath{\text{d}u}}		% dx
 \newcommand{\dtheta}{\ensuremath{\text{d}\theta}}		% dtheta
 \newcommand{\dy}{\ensuremath{\text{d}y}}		% dy
 \newcommand{\dq}{\ensuremath{\text{d}q}}		% dq
 
 %%%Intégrale%%%
 \newcommand{\integralex}[3]{\int_{#1}^{#2} #3 \ \dx}
+\newcommand{\integraleu}[3]{\int_{#1}^{#2} #3 \ \du}
 \newcommand{\integralet}[3]{\int_{#1}^{#2} #3 \ \dt}
 \newcommand{\integraletheta}[3]{\int_{#1}^{#2} #3 \ \dtheta}
 
@@ -622,13 +624,13 @@ On peut l'interpréter comme la distance parcourue par le mobile en $3$ secondes
 
 \begin{itemize}
 
-\item \textbf{Question 3}  $g(t)=\integralex{0}{t}{v(u)}$ est l'aire du rectangle $EFIJ$ c'est-à-dire $t \times 3 = 3t$.
+\item \textbf{Question 3}  $g(t)=\integraleu{0}{t}{v(u)}$ est l'aire du rectangle $EFIJ$ c'est-à-dire $t \times 3 = 3t$.
 
 On peut l'interpréter comme la distance parcourue par le mobile en $t3$ secondes. 
 
 $g$ est une fonction linéaire donc elle est dérivable sur $\Interfo{0}{+\infty}$ et $g'(t)=3$.  On remarque que $g'(t)=v(t)$. On peut l'expliquer en prenant  la limite du taux de variation  $\frac{g(t+h)-g(t)}{h} = \frac{3(t+h)-3t}{h}=3$ quand $h$ tend vers $0$.
 
- $g(t)=\integralex{0}{t}{v(u)}$ est une primitive de $v$.
+ $g(t)=\integraleu{0}{t}{v(u)}$ est une primitive de $v$.
 
 \begin{center}
 \includegraphics[scale=0.2]{images/exemple2.png}
