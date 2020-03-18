@@ -36,7 +36,7 @@ Documents pour ma  classe de terminale S
   - [Séance du 16-03-2020](ContinuitePedagogique/seance-16-03-2020.md)
   - [Séance du 17-03-2020](ContinuitePedagogique/seance-17-03-2020.md)
   - [Séance du 18-03-2020](ContinuitePedagogique/seance-18-03-2020.md)
-  - [Séance du 19-03-2020 (incomplète)](ContinuitePedagogique/seance-18-03-2020.md)
+  - [Séance du 19-03-2020](ContinuitePedagogique/seance-19-03-2020.md)
 
 
  
