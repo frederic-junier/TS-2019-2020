@@ -656,4 +656,54 @@ Voir \href{https://mybinder.org/v2/gh/frederic-junier/TS-2019-2020/master?filepa
 
 
 
+\begin{frame}
+\frametitle{Exemple 4 Question 1}
+
+Soit $f$ définie sur $\Interfo{0}{+\infty}$ par $f(t)=\frac{1}{\sqrt{2\pi}}\text{e}^{-\frac{t^2}{2}}$.
+
+\begin{itemize}
+
+\item $f$ est dérivable sur  $\Interfo{0}{+\infty}$ et $f'(t)=\frac{1}{\sqrt{2\pi}} \times (-t)\text{e}^{-\frac{t^2}{2}}$. Pour  tout réel $t>0$, on a $f'(t)>0$ et $f'(0)=0$.
+
+On en déduit que $f$ est  strictement décroissante sur $\Interoo{0}{+\infty}$.
+
+Puisque $\lim\limits_{x \to -\infty} \text{e}^{x}=0$, on a par composition $\lim\limits_{t \to +\infty} \text{e}^{-\frac{t^2}{2}}=0$.
+
+%Puisque pour tout réel $t$, on a $f(t)=f(-t)$, $f$ est paire et donc $\lim\limits_{t \to +\infty} f(t)=\lim\limits_{t \to -\infty} f(t)=0$.
+
+\end{itemize}
+
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 4 Questions 2 et 3}
+
+$f$ est dérivable donc continue  sur $\Interfo{0}{+\infty}$.
+
+De plus, pour tout $t \geqslant 0$, on a  $f(t)=\frac{1}{\sqrt{2\pi}}\text{e}^{-\frac{t^2}{2}}$ donc $f(t) \geqslant 0$.
+
+On peut appliquer le théorème fondamental, qui nous permet d'affirmer que  $F:x \mapsto \integralet{0}{x}{f(t)}$ est définie et dérivable sur $\Interfo{0}{+\infty}$  et que pour tout réel $x \geqslant 0$, $F'(x)=f(x)$.
+
+Notez qu'on utilise plutôt $x$ pour $F$ et $t$ pour $F'=f$ mais qu'on pourrait écrire : pour tout réel $t \geqslant 0$, $F'(t)=f(t)$.
+
+Puisque $f$ est strictement positive sur $\Interoo{0}{+\infty}$ et ne s'annule qu'en 0, on en déduit que $F$ est strictement croissante sur $\Interfo{0}{+\infty}$. Page suivante un graphique qui permet de comprendre pourquoi $F(x)$ aire sous la courbe de $f$ entre $0$ et $x$ est croissante.
+
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 4 Questions 2 et 3}
+
+vcz	
+
+\end{frame}
+
+
+
+
 \end{document}
