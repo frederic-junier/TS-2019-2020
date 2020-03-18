@@ -550,15 +550,96 @@ _{\substack{x \to #1 \\ x > #1 }} #2}
 \end{frame}
 
 \begin{frame}
-\frametitle{Exemple 1}
-\begin{itemize}
-	\item \hyperlink{exemple1}{Exemple 1}
-	\item \hyperlink{exemple2}{Exemple 2}
-\end{itemize}
+\frametitle{Exemple 1 Partie 1}
+\label{exemple1}
+
+Soit $f$ la fonction définie sur $\Interff{0}{2}$ par $f(x)=2-x$.
+
+La surface dont l'aire est égale à  intégrale  $I=\integralex{1}{2}{f(x)}$ est le triangle $BCD$  rectangle isocèle en $C$  dont l'aire est $\frac{1}{2} \times 1 \times 1=\frac{1}{2}$.
+
+\begin{center}
+\includegraphics[scale=0.4]{images/exemple1.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple 1 Partie 2}
+Soit $f$ la fonction définie sur $\Interff{0}{2}$ par $f(x)=2-x$.
+
+La surface dont l'aire est égale à  intégrale  $I=\integralex{0}{1}{f(x)}$ est le trapèze $OABC$  rectangle isocèle en $O$  dont l'aire est $\frac{1}{2} \times ( OA + BC) \times OC = \frac{3}{2}$.
+
+\begin{center}
+\includegraphics[scale=0.4]{images/exemple1.png}
+\end{center}
 
 \end{frame}
 
 
+\begin{frame}
+\frametitle{Exemple 2 Question 1}
+\label{exemple2}
+
+Soit $M(t)$ un point mobile sur un axe tel que à chaque instant $t \in \Interfo{0}{+\infty}$ (en secondes)  on conna\^it sa vitesse instantanée $v(t)$ en mètres par seconde. 
+
+A l'instant $t=0$, le point mobile est à l'origine de l'axe  et pour tout $t \in \Interfo{0}{+\infty}$, on a $v(t)=3 \ \text{m}.\text{s}^{-1}$.
+
+\begin{itemize}
+
+\item \textbf{Question 1}  La fonction $v$ est constante donc dérivable donc continue sur $\Interfo{0}{+\infty}$.
+
+$\int_{0}^{4}v(t)\dt$  est l'aire du rectangle $EFGH$ c'est-à-dire $4 \times 3 = 12$.
+
+On peut l'interpréter comme la distance parcourue par le mobile en $3$ secondes. Notons que la dimension de l'intégrale est celle de $v(t)\dt$ : vitesse $\times$ temps = distance.
+\end{itemize}
+
+\begin{center}
+\includegraphics[scale=0.2]{images/exemple2.png}
+\end{center}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 2 Question 2}
+
+
+\begin{itemize}
+
+\item \textbf{Question 2}  $\int_{2}^{5}v(t)\dt$ est égale à $(5 - 2) \times 3 = 9$. C'est la distance parcourue par le mobile entre les instants $t=2$ et $t=5$ à une vitesse de $3$ m.s$^{-1}$. $\frac{1}{5-2}\int_{2}^{5}v(t)\dt$ est égale à $\frac{\text{distance}}{\text{temps}}=\frac{9}{3}$, c'est la vitesse moyenne du mobile entre les instants $t=2$ et $t=5$. Comme sa vitesse est constante, c'est sa vitesse instantanée à tout instant. On a un exemple, d'utilisation de l'intégrale dans un calcul de valeur moyenne. Notons que $\frac{1}{5-2}\int_{2}^{5}v(t)\dt$ a la même dimension que $v(t)$, c'est une vitesse.
+\end{itemize}
+
+
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 2 Question 3}
+
+
+\begin{itemize}
+
+\item \textbf{Question 3}  $g(t)=\integralex{0}{t}{v(u)}$ est l'aire du rectangle $EFIJ$ c'est-à-dire $t \times 3 = 3t$.
+
+On peut l'interpréter comme la distance parcourue par le mobile en $t3$ secondes. 
+
+$g$ est une fonction linéaire donc elle est dérivable sur $\Interfo{0}{+\infty}$ et $g'(t)=3$.  On remarque que $g'(t)=v(t)$. On peut l'expliquer en prenant  la limite du taux de variation  $\frac{g(t+h)-g(t)}{h} = \frac{3(t+h)-3t}{h}=3$ quand $h$ tend vers $0$.
+
+ $g(t)=\integralex{0}{t}{v(u)}$ est une primitive de $v$.
+
+\begin{center}
+\includegraphics[scale=0.2]{images/exemple2.png}
+\end{center}
+
+
+\end{itemize}
+
+
+
+\end{frame}
 
 
 \end{document}
