@@ -32,6 +32,11 @@ Documents pour ma  classe de terminale S
   * le mercredi 18/03 de 8 h 30 à 9 h 30
   * le jeudi 19/03 de 9 h à 10 h
   * le lundi 23/03 de 11 h à 12 h
+  
+  
+* Sites de ressources en lignes :
+  * [Classes ouvertes Wims](https://wims.math.cnrs.fr/wims/wims.cgi?lang=fr&+module=adm%2Fclass%2Fclasses&+type=example)
+  
 * Continuité pédagogique :
 
   - [Séance du 16-03-2020](ContinuitePedagogique/seance-16-03-2020.md)
