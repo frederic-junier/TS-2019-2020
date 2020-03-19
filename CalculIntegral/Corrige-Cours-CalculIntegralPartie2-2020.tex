@@ -11,7 +11,7 @@
 
 %%%%%%%Tit\title{Titre principal}
 
-\title[exponentielle]{Exemples du cours du chapitre calcul intégral Partie 2 2019/2020}
+\title[exponentielle]{Exemples du cours du chapitre calcul int\'egral Partie 2 2019/2020}
 %\subtitle{Sous titre}
 \author[F.Junier]{Fr\'ed\'eric Junier}
 \institute[Le Parc]{{\centering Lyc\'ee du Parc \\
@@ -544,9 +544,10 @@ _{\substack{x \to #1 \\ x > #1 }} #2}
 \begin{itemize}
 	\item \hyperlink{exemple1}{Exemple 1}
 	\item \hyperlink{exemple2}{Exemple 2}
-	\item \hyperlink{exemple2}{Exemple 3}
-	\item \hyperlink{exemple2}{Exemple 4}
-	\item \hyperlink{exemple2}{Exemple 5}
+	\item \hyperlink{exemple3}{Exemple 3}
+	\item \hyperlink{exemple4}{Exemple 4}
+	\item \hyperlink{exemple5}{Exemple 5}
+	\item \hyperlink{exemple5}{Exemple 5}
 \end{itemize}
 
 \end{frame}
@@ -748,9 +749,6 @@ Notons que $M$ définie par $M(x)=G(x)+1$, a même dérivée $g$ que $G$ donc c'
 
 \end{frame}
 
-
-
-
 \begin{frame}
 \frametitle{Exemple 5 Question 2 b)}
 
@@ -763,6 +761,97 @@ Supposons  qu'il existe une autre primitive $N$ de $g$ qui s'annule en $\text{e}
 
 $H$ est donc l'unique primitive de $g$ qui s'annule en $\text{e}$.
 
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Exemple 6 Question 1) Partie 1}
+\label{exemple6}
+\renewcommand{\theenumi}{\alph{enumi}}
+Chaque fonction $f$ considérée est continue donc admet des primitives sur leur intervalle de définition.
+
+\begin{enumerate}
+ \item $f(x)= 4$ admet pour primitives les fonctions de la forme :
+ $$F(x)=4x+k \text{ avec } k \text{ constante réelle}$$
+ 
+  \item $f(x)= 0$ admet pour primitives les fonctions de la forme :
+ $$F(x)=k \text{ avec } k \text{ constante réelle}$$
+	
+  \item  $f(x)= \frac{1}{\sqrt{x}}$ admet pour primitives les fonctions de la forme :
+ $$F(x)= 2 \sqrt{x} + k \text{ avec } k \text{ constante réelle}$$
+ 
+   \item  $f(x)= 3+x+x^4$ admet pour primitives les fonctions de la forme :
+ $$F(x)=3x+\frac{1}{2}x^{2} + \frac{1}{5}x^{5} + k \text{ avec } k \text{ constante réelle}$$
+ 
+ 	
+			  
+
+\end{enumerate}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 6 Question 1) Partie 2}
+\renewcommand{\theenumi}{\alph{enumi}}
+
+Chaque fonction $f$ considérée est continue donc admet des primitives sur leur intervalle de définition.
+
+\begin{enumerate}
+
+ \item  $f(x)= \sin(2x)$ admet pour primitives les fonctions de la forme :
+ $$F(x)=-\frac{1}{2}\cos(2x) +  k \text{ avec } k \text{ constante réelle}$$
+ 
+\item  $f(x)=\cos(3x)$  admet pour primitives les fonctions de la forme :
+ $$F(x)=\frac{1}{3}\sin(3x) +  k \text{ avec } k \text{ constante réelle}$$
+ 
+ \item  $f(x)=\frac{1}{x^4}$ admet pour primitives les fonctions de la forme :
+ $$F(x)=\frac{1}{-4+1}x^{-4+1} +  k \text{ avec } k \text{ constante réelle}$$
+
+ 
+
+\end{enumerate}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 6 Question 1) Partie 3}
+\renewcommand{\theenumi}{\alph{enumi}}
+
+Chaque fonction $f$ considérée est continue donc admet des primitives sur leur intervalle de définition.
+
+\begin{enumerate}
+
+ \item  $f(x)=\e^{-2x}$ admet pour primitives les fonctions de la forme :
+ $$F(x)=\frac{1}{-2}\e^{-2x} +  k \text{ avec } k \text{ constante réelle}$$
+ 
+ \item  $f(x)= \frac{-1}{x}$ admet pour primitives les fonctions de la forme :
+ $$F(x)=-\ln(\valabs{x}) +  k  = -\ln(-x) +  k \text{ avec } -x>0  \text{ et } k \text{ constante réelle}$$
+ 
+
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple 6 Question 2)}
+
+
+Soit la fonction définie sur $\Interoo{0}{+\infty}$ par $F: x \mapsto x \ln x - x +1 $
+
+
+Pour tout réel $x>0$, on a,en appliquant la formule de dérivation d'un produit pour $x \ln(x)$ : 
+
+\begin{equation*}
+F'(x)=x \times \frac{1}{x} + 1 \times \ln(x) -1=\ln(x)
+\end{equation*}
+
+$F$ est donc une primitive de la fonction $\ln$. La primitive $G$ de $\ln$ qui s'annule en $\sqrt{\text{e}}$. est donc de la forme $G(x)=F(x)+k$. Il suffit de déterminer $k$ en évaluant $G$ en $\sqrt{\text{e}}$: 
+$$G(\sqrt{\text{e}})=F(\sqrt{\text{e}})+k= \frac{1}{2}\sqrt{\text{e}}-\sqrt{\text{e}}+1+k=0 \Leftrightarrow k = \frac{1}{2}\sqrt{\text{e}}-1$$
+La primitive de $\ln$ qui s'annule en $\sqrt{\text{e}}$ est donc $G(x)=x \ln x - x +\frac{1}{2}\sqrt{\text{e}}$.
 \end{frame}
 
 
