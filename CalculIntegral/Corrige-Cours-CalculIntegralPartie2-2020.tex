@@ -547,7 +547,9 @@ _{\substack{x \to #1 \\ x > #1 }} #2}
 	\item \hyperlink{exemple3}{Exemple 3}
 	\item \hyperlink{exemple4}{Exemple 4}
 	\item \hyperlink{exemple5}{Exemple 5}
-	\item \hyperlink{exemple5}{Exemple 5}
+	\item \hyperlink{exemple6}{Exemple 6}
+		\item \hyperlink{exemple7}{Exemple 7}
+			\item \hyperlink{exemple8}{Exemple 8}
 \end{itemize}
 
 \end{frame}
@@ -949,6 +951,61 @@ La primitive de $\ln$ qui s'annule en $\sqrt{\text{e}}$ est donc $G(x)=x \ln x -
 \end{enumerate}
 
 \end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 8 Partie 1}
+\label{exemple8}
+On considère les  courbes d'équations $y=1$, $y=x$ et $y=x^2$ sur l'intervalle $\Interff{0}{1}$.
+
+Pour tout réel $x \in \Interff{0}{1}$, on a :
+\begin{align*}
+0 & \leqslant x \leqslant  1 \\
+\intertext{on multiplie par $x \geqslant 0$}
+0 & \leqslant x^{2}   \leqslant x  \leqslant 1
+\end{align*}
+
+
+
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Exemple 8 Figure }
+
+
+\begin{center}
+\includegraphics[scale=0.3]{images/exemple8.png}
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Exemple 8 Partie 2 }
+
+Puisque pour tout réel $x \in \Interff{0}{1}$, on a $0  \leqslant x^{2}   \leqslant x  \leqslant 1$, on en déduit que : la courbe d'équation $y=x^2$ est donc en dessous de la droite d'équation $y=x$, elle même en-dessous de la droite d'équation $y=1$.
+
+Par définition de l'intégrale d'une fonction continue positive comme aire du domaine  \og{} sous sa courbe \fg{} (délimité par sa courbe, l'axe des abscisses et les deux droites parallèles à l'axe des ordonnées passant par les bornes de l'intervalle), on en déduit que :
+
+$$I= \int_{0}^{1}x^2 \ \dx \leqslant K= \int_{0}^{1} x \ \dx  \leqslant J = \int_{0}^{1} 1 \ \dx$$
+ 
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 8 Partie 3 }
+
+
+De plus, par additivité des aires, l'intégrale   $L=\int_{0}^{1} 1-x^2  \ \dx$ représente l'aire du domaine entre la droite d'équation $y=1$ et la courbe d'équation $y=x^2$, de même   $M=\int_{0}^{1} x-x^2  \ \dx$ représente l'aire du domaine entre la droite d'équation $y=x$ et la courbe d'équation $y=x^2$.
+
+On peut noter que pour tout réel $x \in \Interff{0}{1}$, on a $0  \leqslant x^{2}   \leqslant x  \leqslant 1$, donc $0 \leqslant x - x^{2} \leqslant 1- x^{2}$ et donc $M \leqslant L$.  
+
+\end{frame}\\
 
 
 \end{document}
