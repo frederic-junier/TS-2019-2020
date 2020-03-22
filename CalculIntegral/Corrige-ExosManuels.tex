@@ -11,7 +11,7 @@
 
 %%%%%%%Tit\title{Titre principal}
 
-\title[exponentielle]{Classe virtuelle du 19/03/2020}
+\title[exponentielle]{Exemples du cours du chapitre calcul int\'egral Partie 2 2019/2020}
 %\subtitle{Sous titre}
 \author[F.Junier]{Fr\'ed\'eric Junier}
 \institute[Le Parc]{{\centering Lyc\'ee du Parc \\
@@ -542,214 +542,470 @@ _{\substack{x \to #1 \\ x > #1 }} #2}
 \begin{frame}
 \frametitle{Table des matières}
 \begin{itemize}
-	\item \hyperlink{fondamental}{Théorème fondamental}
-	\item \hyperlink{primitives}{Primitives}
-	\item \hyperlink{primref}{Primitives de référence}
-	\item \hyperlink{primop}{Opérations sur les primitives}
-	\item \hyperlink{integrale}{Intégrale et primitive}
+	\item \hyperlink{exemple1}{Exemple 1}
+	\item \hyperlink{exemple2}{Exemple 2}
+	\item \hyperlink{exemple3}{Exemple 3}
+	\item \hyperlink{exemple4}{Exemple 4}
+	\item \hyperlink{exemple5}{Exemple 5}
+	\item \hyperlink{exemple6}{Exemple 6}
+		\item \hyperlink{exemple7}{Exemple 7}
+			\item \hyperlink{exemple8}{Exemple 8}
 \end{itemize}
 
 \end{frame}
 
 \begin{frame}
-\frametitle{Théorème fondamental}
-\label{fondamental}
+\frametitle{Exemple 1 Partie 1}
+\label{exemple1}
 
-Ce qu'il faut retenir :
+Soit $f$ la fonction définie sur $\Interff{0}{2}$ par $f(x)=2-x$.
 
-\begin{itemize}
-
-	\item \textbf{Théorème 1 (fondamental de l'analyse)} : si $f$ continue positive sur $\Interff{a}{b}$ alors $F(x)=\integralet{a}{x}{f(t)}$ est dérivable et $F'=f$.  
-	\pause \item \textbf{Définition 3}  Si $F'=f$ alors $F$ est une primitive de $f$.
-	\pause \item Animation : \href{https://www.geogebra.org/m/u7xzjbtm}{https://www.geogebra.org/m/u7xzjbtm}
-	\pause \item Un exemple ?  $F(x)=\integralet{1}{x}{\frac{1}{t}}$ est une primitive de la fonction $f(x)=\frac{1}{x}$. On la connaît déjà, c'est la fonction $\ln$
-	
-
-
-\end{itemize}
-
-\end{frame}
-
-
-
-\begin{frame}
-\frametitle{Primitives}
-\label{primitives}
-
-Ce qu'il faut retenir :
-
-\begin{itemize}
-
-
- \item \textbf{Théorème 2} : Plus généralement, toute fonction $f$ continue admet une  primitive.
-	\pause  \item Un exemple ?  $F(x)=x^2$  et $G(x)=x^2-9$ sont des primitives de $f(x)=2x$
-	\pause \item \textbf{Théorème 3} : Deux primitives d'une même fonction diffèrent à une constante près.
-	\pause  \item Un exemple ?  $G(x)=x^2-9$  est l'unique  primitive  de $f(x)=2x$ qui s'annule en $3$.
-	\pause \item Les primitives de $f(x)=2x$ sont de la forme $F(x)=x^2+k$ avec $k$ constante réelle.
-
-
-\end{itemize}
-
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Primitives des fonctions de référence Partie 1}
-\label{primitives}
-
-Les fonctions $f$ considérées sont continues et donc admettent des primitives sur leur intervalle de définition.
-
-Le tableau des primitives des fonctions de référence est le tableau des dérivées lu à l'envers.
-\begin{itemize}
-
-
- \item $f(x)=0$ admet pour primitive une  fonction de la forme \uncover<1->{$F(x)=k$ avec $k$ constante}
- \item $f(x)=1$ admet pour primitive une  fonction de la forme \uncover<2->{$F(x)=x+k$ avec $k$ constante}
-	 \item $f(x)=x$ admet pour primitive une  fonction de la forme \uncover<3->{$F(x)=\frac{1}{2}x^{2}+k$ avec $k$ constante}
- \item $f(x)=x^{2}$ admet pour primitive une  fonction de la forme \uncover<4->{$F(x)=\frac{1}{3}x^{3}+k$ avec $k$ constante}
- \item $f(x)=x^{n}$ avec $n$ entier naturel admet pour primitive une  fonction de la forme \uncover<5->{$F(x)=\frac{1}{n+1}x^{n+1}+k$ avec $k$ constante}
-
-\end{itemize}
-
-\end{frame}
-
-
-
-
-\begin{frame}
-\frametitle{Primitives des fonctions de référence Partie 2}
-
-
-Les fonctions $f$ considérées sont continues et donc admettent des primitives sur leur intervalle de définition.
-
-\begin{itemize}
-
- \item $f(x)=\frac{1}{\sqrt{x}}$ admet pour primitive une  fonction de la forme \uncover<1->{$F(x)=2\sqrt{x}+k$ avec $k$ constante}
- \item $f(x)=\frac{1}{x}$ admet pour primitive une  fonction de la forme \uncover<1->{$F(x)=\ln(\valabs{x})+k$ avec $k$ constante} \bcattention{} Ne pas oublier la valeur absolue, $\ln$ définie sur $\Interoo{0}{+\infty}$ 
- \item $f(x)=\frac{1}{x^2}$ admet pour primitive une  fonction de la forme \uncover<2->{$F(x)=-\frac{1}{x}+k$ avec $k$ constante}
-	 \item $f(x)=\frac{1}{x^n}$ avec $n$ entier naturel admet pour primitive une  fonction de la forme \uncover<3->{$F(x)=\frac{1}{-n+1}x^{-n+1}+k$ avec $k$ constante}
-
-
-\end{itemize}
-
-\end{frame}
-
-
-
-
-\begin{frame}
-\frametitle{Primitives des fonctions de référence Partie 3}
-
-
-Les fonctions $f$ considérées sont continues et donc admettent des primitives sur leur intervalle de définition.
-
-\begin{itemize}
-
- \item $f(x)=\sin(x)$ admet pour primitive une  fonction de la forme \uncover<1->{$F(x)=-\cos(x)+k$ avec $k$ constante}
- \item $f(x)=\cos(x)$  admet pour primitive une  fonction de la forme \uncover<2->{$F(x)=\sin(x)+k$ avec $k$ constante}
- \item $f(x)=\text{e}^{x}$  admet pour primitive une  fonction de la forme \uncover<3->{$F(x)=\text{e}^{x}+k$ avec $k$ constante}
-
-\end{itemize}
-
-\end{frame}
-
-
-
-\begin{frame}
-\frametitle{Opérations sur les primitives Partie 1}
-\label{primop}
-
-
-
-\begin{itemize}
-
- \item Une primitive d'une somme s'obtient comme somme de primitives.
- \pause \item Un exemple ? $f(x)=x^{2}+\frac{1}{\sqrt{x}}$ admet pour primitive \uncover<2->{$F(x)=\frac{1}{3}x^{3}+2\sqrt{x}+k$ avec $k$ constante}
-  \item Une primitive d'un produit de fonction par une constante s'obtient comme produit d'une primitive de cette fonction par cette constante.
- \pause \item Un exemple ? $f(x)=5x^{2}-\frac{3}{\sqrt{x}}$ admet pour primitive \uncover<2->{$F(x)=\frac{5}{3}x^{3}-6\sqrt{x}+k$ avec $k$ constante}
- \item \bcattention Une primitive de produit/quotient ne s'obtient pas comme produit/quotient  de primitives.
- \pause \item Un exemple ?  $f(x)=x^{2}=x . x$ admet pour primitive \uncover<2->{$F(x)=\frac{1}{3}x^{3}+k$  et non pas $F(x)=(0,5x^{2})^{2}+k$ avec $k$ constante}
-\end{itemize}
-
-\end{frame}
-
-
-
-
-\begin{frame}
-\frametitle{Opérations sur les primitives Partie 2}
-\label{primop}
-
-On peut déterminer une primitive de fonction en identifiant celle-ci à la dérivée d'une fonction composée.
-Soit $u$ une fonction dérivable sur un intervalle où toutes les fonctions considérées sont bien définies.
-
-\begin{itemize}
-
-
- \item $f(x)=u'(x)u^{2}(x)$ admet pour primitive une  fonction de la forme \uncover<1->{$F(x)=\frac{1}{3}u^{3}(x)+k$ avec $k$ constante}
- \item $f(x)=\frac{u'(x)}{u^{2}(x)}$ admet pour primitive une  fonction de la forme \uncover<2->{$F(x)=-\frac{1}{u(x)}+k$ avec $k$ constante}
- \item $f(x)=\frac{u'(x)}{u(x)}$  admet pour primitive une  fonction de la forme \uncover<3->{$F(x)= \ln(\valabs{u(x)})+k$ avec $k$ constante}
-  \item $f(x)=u'(x)\text{e}^{u(x)}$  admet pour primitive une  fonction de la forme \uncover<4->{$F(x)= \text{e}^{u(x)}+k$ avec $k$ constante}
-\end{itemize}
-
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Opérations sur les primitives Partie 2}
-\label{primop}
-
-On peut déterminer une primitive de fonction en identifiant celle-ci à la dérivée d'une fonction composée.
-Soit $u$ une fonction dérivable sur un intervalle où toutes les fonctions considérées sont bien définies.
-
-\begin{itemize}
-
-
- \item $f(x)=u'(x)u^{2}(x)$ admet pour primitive une  fonction de la forme \uncover<1->{$F(x)=\frac{1}{3}u^{3}(x)+k$ avec $k$ constante}
- \item $f(x)=\frac{u'(x)}{u^{2}(x)}$ admet pour primitive une  fonction de la forme \uncover<2->{$F(x)=-\frac{1}{u(x)}+k$ avec $k$ constante}
- \item $f(x)=\frac{u'(x)}{u(x)}$  admet pour primitive une  fonction de la forme \uncover<3->{$F(x)= \ln(\valabs{u(x)})+k$ avec $k$ constante}
-  \item $f(x)=u'(x)\text{e}^{u(x)}$  admet pour primitive une  fonction de la forme \uncover<4->{$F(x)= \text{e}^{u(x)}+k$ avec $k$ constante}
-\end{itemize}
-
-\end{frame}
-
-
-
-\begin{frame}
-\frametitle{Intégrale d'une fonction positive Partie 1}
-\label{integrale}
-
-\begin{itemize}
-\item \textbf{Théorème 4 }  
-Soit $f$ une fonction continue positive  sur un intervalle $I$. Soient $a$ et $b$ deux réels de $I$ tels que $a<b$. Soit $F$ une primitive de $f$. On a :\\
-\[\displaystyle\int_{a}^{b}f(x)\dx=F(b)-F(a)\]
-
-\pause \item \bcattention{} Le calcul de l'intégrale ne dépend pas de la primitive choisie.
+La surface dont l'aire est égale à  intégrale  $I=\integralex{1}{2}{f(x)}$ est le triangle $BCD$  rectangle isocèle en $C$  dont l'aire est $\frac{1}{2} \times 1 \times 1=\frac{1}{2}$.
 
 \begin{center}
-\includegraphics[scale=0.2]{ressources/parabole.png}
+\includegraphics[scale=0.4]{images/exemple1.png}
 \end{center}
 
-\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple 1 Partie 2}
+Soit $f$ la fonction définie sur $\Interff{0}{2}$ par $f(x)=2-x$.
+
+La surface dont l'aire est égale à  intégrale  $I=\integralex{0}{1}{f(x)}$ est le trapèze $OABC$  rectangle isocèle en $O$  dont l'aire est $\frac{1}{2} \times ( OA + BC) \times OC = \frac{3}{2}$.
+
+\begin{center}
+\includegraphics[scale=0.4]{images/exemple1.png}
+\end{center}
 
 \end{frame}
 
 
 \begin{frame}
-\frametitle{Intégrale d'une fonction positive Partie 2}
-\label{integrale}
+\frametitle{Exemple 2 Question 1}
+\label{exemple2}
+
+Soit $M(t)$ un point mobile sur un axe tel que à chaque instant $t \in \Interfo{0}{+\infty}$ (en secondes)  on conna\^it sa vitesse instantanée $v(t)$ en mètres par seconde. 
+
+A l'instant $t=0$, le point mobile est à l'origine de l'axe  et pour tout $t \in \Interfo{0}{+\infty}$, on a $v(t)=3 \ \text{m}.\text{s}^{-1}$.
 
 \begin{itemize}
-\item  Comment calculer $\integralex{1}{2}{x^{2}}$ qui représente l'aire sous la parabole entre les abscisses $1$ et $2$ dans un repère orthogonal d'unité 2 cm pour une unité en abscisse et 3 cm pour une unité en ordonnée ?
-\pause \item On détermine d'abord une primitive de $x^{2}$, par exemple $F(x)=\frac{1}{3}x^{3}$. 
-\pause \item Ensuite, on calcule $F(2)-F(1)=\frac{8}{3}-\frac{1}{3}=\frac{7}{3}$
-\pause \item Enfin, on donne le résultat en unités d'aires :   $\integralex{1}{2}{x^{2}}=\frac{7}{3} \text{ u.a.}$
-et on convertit éventuellement en cm$^{2}$, ici 1 u.a. égale à $3 \times 2 = 6 $ cm$^{2}$.
-On a donc $\integralex{1}{2}{x^{2}}=\frac{7}{3} \times 6 = 14$ cm$^{2}$.
+
+\item \textbf{Question 1}  La fonction $v$ est constante donc dérivable donc continue sur $\Interfo{0}{+\infty}$.
+
+$\int_{0}^{4}v(t)\dt$  est l'aire du rectangle $EFGH$ c'est-à-dire $4 \times 3 = 12$.
+
+On peut l'interpréter comme la distance parcourue par le mobile en $3$ secondes. Notons que la dimension de l'intégrale est celle de $v(t)\dt$ : vitesse $\times$ temps = distance.
 \end{itemize}
+
+\begin{center}
+\includegraphics[scale=0.2]{images/exemple2.png}
+\end{center}
 
 \end{frame}
 
+
+
+\begin{frame}
+\frametitle{Exemple 2 Question 2}
+
+
+\begin{itemize}
+
+\item \textbf{Question 2}  $\int_{2}^{5}v(t)\dt$ est égale à $(5 - 2) \times 3 = 9$. C'est la distance parcourue par le mobile entre les instants $t=2$ et $t=5$ à une vitesse de $3$ m.s$^{-1}$. $\frac{1}{5-2}\int_{2}^{5}v(t)\dt$ est égale à $\frac{\text{distance}}{\text{temps}}=\frac{9}{3}$, c'est la vitesse moyenne du mobile entre les instants $t=2$ et $t=5$. Comme sa vitesse est constante, c'est sa vitesse instantanée à tout instant. On a un exemple, d'utilisation de l'intégrale dans un calcul de valeur moyenne. Notons que $\frac{1}{5-2}\int_{2}^{5}v(t)\dt$ a la même dimension que $v(t)$, c'est une vitesse.
+\end{itemize}
+
+
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 2 Question 3}
+
+
+\begin{itemize}
+
+\item \textbf{Question 3}  $g(t)=\integraleu{0}{t}{v(u)}$ est l'aire du rectangle $EFIJ$ c'est-à-dire $t \times 3 = 3t$.
+
+On peut l'interpréter comme la distance parcourue par le mobile en $t3$ secondes. 
+
+$g$ est une fonction linéaire donc elle est dérivable sur $\Interfo{0}{+\infty}$ et $g'(t)=3$.  On remarque que $g'(t)=v(t)$. On peut l'expliquer en prenant  la limite du taux de variation  $\frac{g(t+h)-g(t)}{h} = \frac{3(t+h)-3t}{h}=3$ quand $h$ tend vers $0$.
+
+ $g(t)=\integraleu{0}{t}{v(u)}$ est une primitive de $v$.
+
+\begin{center}
+\includegraphics[scale=0.2]{images/exemple2.png}
+\end{center}
+
+
+\end{itemize}
+
+
+
+\end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{Exemple 3}
+
+Voir \href{https://mybinder.org/v2/gh/frederic-junier/TS-2019-2020/master?filepath=CalculIntegral/ressources/Cours_Calcul_Integral_2020_Eleve.ipynb}{Notebook} et  \href{https://frederic-junier.github.io/TS-2019-2020/CalculIntegral/ressources/Cours_Calcul_Integral_2020_Eleve-Corrige.pdf}{Corrigé} (suivez les liens).
+
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 4 Question 1}
+
+Soit $f$ définie sur $\Interfo{0}{+\infty}$ par $f(t)=\frac{1}{\sqrt{2\pi}}\text{e}^{-\frac{t^2}{2}}$.
+
+\begin{itemize}
+
+\item $f$ est dérivable sur  $\Interfo{0}{+\infty}$ et $f'(t)=\frac{1}{\sqrt{2\pi}} \times (-t)\text{e}^{-\frac{t^2}{2}}$. Pour  tout réel $t>0$, on a $f'(t)>0$ et $f'(0)=0$.
+
+On en déduit que $f$ est  strictement décroissante sur $\Interoo{0}{+\infty}$.
+
+Puisque $\lim\limits_{x \to -\infty} \text{e}^{x}=0$, on a par composition $\lim\limits_{t \to +\infty} \text{e}^{-\frac{t^2}{2}}=0$.
+
+%Puisque pour tout réel $t$, on a $f(t)=f(-t)$, $f$ est paire et donc $\lim\limits_{t \to +\infty} f(t)=\lim\limits_{t \to -\infty} f(t)=0$.
+
+\end{itemize}
+
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 4 Questions 2 et 3}
+
+$f$ est dérivable donc continue  sur $\Interfo{0}{+\infty}$.
+
+De plus, pour tout $t \geqslant 0$, on a  $f(t)=\frac{1}{\sqrt{2\pi}}\text{e}^{-\frac{t^2}{2}}$ donc $f(t) \geqslant 0$.
+
+On peut appliquer le théorème fondamental, qui nous permet d'affirmer que  $F:x \mapsto \integralet{0}{x}{f(t)}$ est définie et dérivable sur $\Interfo{0}{+\infty}$  et que pour tout réel $x \geqslant 0$, $F'(x)=f(x)$.
+
+Notez qu'on utilise plutôt $x$ pour $F$ et $t$ pour $F'=f$ mais qu'on pourrait écrire : pour tout réel $t \geqslant 0$, $F'(t)=f(t)$.
+
+Puisque $f$ est strictement positive sur $\Interoo{0}{+\infty}$ et ne s'annule qu'en 0, on en déduit que $F$ est strictement croissante sur $\Interfo{0}{+\infty}$. Page suivante un graphique qui permet de comprendre pourquoi $F(x)$ aire sous la courbe de $f$ entre $0$ et $x$ est croissante.
+
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 4 Questions 2 et 3}
+
+\begin{center}
+\includegraphics[scale=0.2]{images/exemple4.png}
+\end{center}
+
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Exemple 5 Question 1}
+\label{exemple5}
+
+Soient les fonctions $f$ et $F$ continues sur $\Interoo{-\frac{\pi}{2}}{\frac{\pi}{2}}$ définies  par :
+$$F(x)=\tan x - x \quad \text{et} \quad  f(x)=\tan^{2} x$$
+
+$F$ est dérivable sur $\Interoo{-\frac{\pi}{2}}{\frac{\pi}{2}}$ et pour tout réel $x \in \Interoo{-\frac{\pi}{2}}{\frac{\pi}{2}}$, on a :
+
+$$F'(x)= \frac{\cos( x )\times \cos(x) - \sin(x) \times (-\sin(x))}{\cos^{2}(x)} - 1 = \frac{\cos^{2}(x) + \sin^{2}(x)}{\cos^{2}(x)}-1$$
+
+$$F'x()=  \frac{\sin^{2}(x)}{\cos^{2}(x)}= \tan^{2} x$$
+
+$F$ est donc une primitive de $f$.
+
+
+
+
+
+\end{frame}
+
+
+
+
+
+\begin{frame}
+\frametitle{Exemple 5 Question 2 a)}
+
+Soient $g$ et $G$ les fonctions définies sur $\Interoo{0}{+\infty}$ par :
+$$g(x)=\frac{1+\ln x}{x} \quad \text{et} \quad G(x)=\frac{1}{2}\left(\ln x \right)^{2}+\ln x $$
+
+$G$ est dérivable sur $\Interoo{0}{+\infty}$, et pour tout réel $x>0$, on a :
+
+$$G'(x)=\frac{1}{2} \times \frac{1}{x} \times 2 \ln(x) + \frac{1}{x}=\frac{1+\ln x}{x}$$
+$$G'(x)=g(x)$$
+
+$G$ et donc une primitive de $g$.
+
+Notons que $M$ définie par $M(x)=G(x)+1$, a même dérivée $g$ que $G$ donc c'est une aussi une primitive de $g$. On peut remplacer $1$ par une constante $k$, toute fonction de la forme $G(x)+k$ est une primitive de $g$.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple 5 Question 2 b)}
+
+
+$G(\text{e})=\frac{1}{2}\left(\ln \text{e} \right)^{2}+\ln \text{e} = \frac{3}{2}$.
+
+La fonction $H$ définie par $H(x)=G(x) - G(\text{e}) = G(x) - \frac{3}{2}$, s'annule en $\text{e}$ et a pour dérivée $H'=G'=g$ donc c'est une primitive de $g$ qui s'annule en $\text{e}$.
+
+Supposons  qu'il existe une autre primitive $N$ de $g$ qui s'annule en $\text{e}$, on a $(H-N)'=H'-N'=g-g=0$ donc $H-N$ est constante. De plus , $(H-N)(\text{e})=0$ donc $H-N=0$ donc $H=N$.
+
+$H$ est donc l'unique primitive de $g$ qui s'annule en $\text{e}$.
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Exemple 6 Question 1) Partie 1}
+\label{exemple6}
+\renewcommand{\theenumi}{\alph{enumi}}
+Chaque fonction $f$ considérée est continue donc admet des primitives sur son intervalle de définition.
+
+\begin{enumerate}
+ \item $f(x)= 4$ admet pour primitives les fonctions de la forme :
+ $$F(x)=4x+k \text{ avec } k \text{ constante réelle}$$
+ 
+  \item $f(x)= 0$ admet pour primitives les fonctions de la forme :
+ $$F(x)=k \text{ avec } k \text{ constante réelle}$$
+	
+  \item  $f(x)= \frac{1}{\sqrt{x}}$ admet pour primitives les fonctions de la forme :
+ $$F(x)= 2 \sqrt{x} + k \text{ avec } k \text{ constante réelle}$$
+ 
+   \item  $f(x)= 3+x+x^4$ admet pour primitives les fonctions de la forme :
+ $$F(x)=3x+\frac{1}{2}x^{2} + \frac{1}{5}x^{5} + k \text{ avec } k \text{ constante réelle}$$
+ 
+ 	
+			  
+
+\end{enumerate}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 6 Question 1) Partie 2}
+\renewcommand{\theenumi}{\alph{enumi}}
+
+Chaque fonction $f$ considérée est continue donc admet des primitives sur son intervalle de définition.
+
+\begin{enumerate}
+
+ \item  $f(x)= \sin(2x)$ admet pour primitives les fonctions de la forme :
+ $$F(x)=-\frac{1}{2}\cos(2x) +  k \text{ avec } k \text{ constante réelle}$$
+ 
+\item  $f(x)=\cos(3x)$  admet pour primitives les fonctions de la forme :
+ $$F(x)=\frac{1}{3}\sin(3x) +  k \text{ avec } k \text{ constante réelle}$$
+ 
+ \item  $f(x)=\frac{1}{x^4}$ admet pour primitives les fonctions de la forme :
+ $$F(x)=\frac{1}{-4+1}x^{-4+1} +  k \text{ avec } k \text{ constante réelle}$$
+
+ 
+
+\end{enumerate}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 6 Question 1) Partie 3}
+\renewcommand{\theenumi}{\alph{enumi}}
+
+Chaque fonction $f$ considérée est continue donc admet des primitives sur son intervalle de définition.
+
+\begin{enumerate}
+
+ \item  $f(x)=\e^{-2x}$ admet pour primitives les fonctions de la forme :
+ $$F(x)=\frac{1}{-2}\e^{-2x} +  k \text{ avec } k \text{ constante réelle}$$
+ 
+ \item  $f(x)= \frac{-1}{x}$ admet pour primitives les fonctions de la forme :
+ $$F(x)=-\ln(\valabs{x}) +  k  = -\ln(-x) +  k \text{ avec } -x>0  \text{ et } k \text{ constante réelle}$$
+ 
+
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple 6 Question 2)}
+
+
+Soit la fonction définie sur $\Interoo{0}{+\infty}$ par $F: x \mapsto x \ln x - x +1 $
+
+
+Pour tout réel $x>0$, on a,en appliquant la formule de dérivation d'un produit pour $x \ln(x)$ : 
+
+\begin{equation*}
+F'(x)=x \times \frac{1}{x} + 1 \times \ln(x) -1=\ln(x)
+\end{equation*}
+
+$F$ est donc une primitive de la fonction $\ln$. La primitive $G$ de $\ln$ qui s'annule en $\sqrt{\text{e}}$. est donc de la forme $G(x)=F(x)+k$. Il suffit de déterminer $k$ en évaluant $G$ en $\sqrt{\text{e}}$: 
+$$G(\sqrt{\text{e}})=F(\sqrt{\text{e}})+k= \frac{1}{2}\sqrt{\text{e}}-\sqrt{\text{e}}+1+k=0 \Leftrightarrow k = \frac{1}{2}\sqrt{\text{e}}-1$$
+La primitive de $\ln$ qui s'annule en $\sqrt{\text{e}}$ est donc $G(x)=x \ln x - x +\frac{1}{2}\sqrt{\text{e}}$.
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple 6 Question 2)}
+
+Soit la fonction définie sur $\Interoo{0}{+\infty}$ par $F: x \mapsto x \ln x - x +1 $
+
+
+Pour tout réel $x>0$, on a,en appliquant la formule de dérivation d'un produit pour $x \ln(x)$ : 
+
+\begin{equation*}
+F'(x)=x \times \frac{1}{x} + 1 \times \ln(x) -1=\ln(x)
+\end{equation*}
+
+$F$ est donc une primitive de la fonction $\ln$. La primitive $G$ de $\ln$ qui s'annule en $\sqrt{\text{e}}$. est donc de la forme $G(x)=F(x)+k$. Il suffit de déterminer $k$ en évaluant $G$ en $\sqrt{\text{e}}$: 
+$$G(\sqrt{\text{e}})=F(\sqrt{\text{e}})+k= \frac{1}{2}\sqrt{\text{e}}-\sqrt{\text{e}}+1+k=0 \Leftrightarrow k = \frac{1}{2}\sqrt{\text{e}}-1$$
+La primitive de $\ln$ qui s'annule en $\sqrt{\text{e}}$ est donc $G(x)=x \ln x - x +\frac{1}{2}\sqrt{\text{e}}$.
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 7 Partie 1}
+
+\label{exemple7}
+
+\begin{enumerate}
+
+ \item  $f(x)=x^2-2x-1-\frac{1}{x^2}-\frac{1}{x}+\text{e}^{x}$admet pour primitives les fonctions de la forme :
+ $$F(x)=\frac{x^{3}}{3}-x^{2}-x+\frac{1}{x}-\ln(\valabs{x})+\text{e}^{x}+  k \text{ avec } k \text{ constante réelle}$$
+ 
+\item  $f(x)=\cos(4x-1)-2\sin(2x)$   admet pour primitives les fonctions de la forme :
+ $$F(x)=\frac{1}{4}\sin(4x-1) + 2\times \frac{1}{2} \cos(2x) +  k \text{ avec } k \text{ constante réelle}$$
+ 
+ \item   $f(x)=\frac{\e^{731x}}{(\e^{731x}+1)^2}$  est de la forme $\frac{1}{731}\frac{u'}{u^{2}}$ avec $u(x)=\e^{731x}+1$, donc admet pour primitives les fonctions de la forme :
+ $$F(x)=-\frac{1}{u(x)}+k=-\frac{1}{731}\frac{1}{\e^{731x}+1} +  k = \text{ avec } k \text{ constante réelle}$$
+
+
+			
+\end{enumerate}
+
+\end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{Exemple 7 Partie 2}
+
+\begin{enumerate}
+
+
+
+ \item   $f(x)=\frac{\e^{-x}}{\e^{-x}+1}$   est de la forme $-\frac{u'}{u}$ avec $u(x)=\e^{-x}+1$, donc admet pour primitives les fonctions de la forme :
+ $$F(x)=-\ln(\valabs{u(x)})+k=-\ln(\valabs{\e^{-x}+1} )  +  k  = -\ln(\e^{-x}+1 )  +  k  \text{ , } k \in \R$$
+
+
+ \item   $f(x)=\frac{x}{\text{e}^{x^2}}=x \text{e}^{-x^2}$    est de la forme $-\frac{1}{2}u'\text{e}^{u}$ avec $u(x)=-x^2$, donc admet pour primitives les fonctions de la forme :
+ $$F(x)=-\frac{1}{2} \text{e}^{u(x)} +k=-\frac{1}{2} \text{e}^{-x^2}  +  k    \text{ , } k \in \R$$
+
+
+
+
+ 
+
+			
+\end{enumerate}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 7 Partie 3}
+
+\begin{enumerate}
+
+ \item   $f(x)=\frac{1}{x \ln x}=\frac{\frac{1}{x}}{\ln(x)}$    est de la forme $\frac{u'}{u}$ avec $u(x)=\ln(x)$, donc admet pour primitives les fonctions de la forme :
+ $$F(x)=\ln(\valabs{u(x)}) +k=\ln(\valabs{\ln(x)})  +  k    \text{ , } k \in \R$$
+ 
+ Sur $\Interoo{0}{1}$, on a $\ln(x)<0$ donc $F(x)=\ln(-\ln(x))  +  k$.
+ 
+  Sur $\Interoo{1}{+\infty}$, on a $\ln(x)>0$ donc $F(x)=\ln(\ln(x))  +  k$.
+
+ \item   $f(x)=\cos(x)\text{e}^{\sin(x)}$    est de la forme $u'\text{e}^{u}$ avec $u(x)=\sin(x)$, donc admet pour primitives les fonctions de la forme :
+ $$F(x)=\text{e}^{u(x)} +k=\text{e}^{\sin(x)} +k    \text{ , } k \in \R$$
+ 
+ 
+ \item   $f(x)=\frac{1}{x}\times \left(\ln x\right)^2$    est de la forme $u'u^{2}$ avec $u(x)=\ln(x)$, donc admet pour primitives les fonctions de la forme :
+ $$F(x)=\frac{1}{3}u^{3}(x)+k=\frac{1}{3}(\ln(x))^{3} +k    \text{ , } k \in \R$$
+ 
+
+			
+\end{enumerate}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 8 Partie 1}
+\label{exemple8}
+On considère les  courbes d'équations $y=1$, $y=x$ et $y=x^2$ sur l'intervalle $\Interff{0}{1}$.
+
+Pour tout réel $x \in \Interff{0}{1}$, on a :
+\begin{align*}
+0 & \leqslant x \leqslant  1 \\
+\intertext{on multiplie par $x \geqslant 0$}
+0 & \leqslant x^{2}   \leqslant x  \leqslant 1
+\end{align*}
+
+
+
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Exemple 8 Figure }
+
+
+\begin{center}
+\includegraphics[scale=0.3]{images/exemple8.png}
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Exemple 8 Partie 2 }
+
+Puisque pour tout réel $x \in \Interff{0}{1}$, on a $0  \leqslant x^{2}   \leqslant x  \leqslant 1$, on en déduit que : la courbe d'équation $y=x^2$ est donc en dessous de la droite d'équation $y=x$, elle même en-dessous de la droite d'équation $y=1$.
+
+Par définition de l'intégrale d'une fonction continue positive comme aire du domaine  \og{} sous sa courbe \fg{} (délimité par sa courbe, l'axe des abscisses et les deux droites parallèles à l'axe des ordonnées passant par les bornes de l'intervalle), on en déduit que :
+
+$$I= \int_{0}^{1}x^2 \ \dx \leqslant K= \int_{0}^{1} x \ \dx  \leqslant J = \int_{0}^{1} 1 \ \dx$$
+ 
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 8 Partie 3 }
+
+
+De plus, par additivité des aires, l'intégrale   $L=\int_{0}^{1} 1-x^2  \ \dx$ représente l'aire du domaine entre la droite d'équation $y=1$ et la courbe d'équation $y=x^2$, de même   $M=\int_{0}^{1} x-x^2  \ \dx$ représente l'aire du domaine entre la droite d'équation $y=x$ et la courbe d'équation $y=x^2$.
+
+On peut noter que pour tout réel $x \in \Interff{0}{1}$, on a $0  \leqslant x^{2}   \leqslant x  \leqslant 1$, donc $0 \leqslant x - x^{2} \leqslant 1- x^{2}$ et donc $M \leqslant L$.  
+
+\end{frame}\\
 
 
 \end{document}
