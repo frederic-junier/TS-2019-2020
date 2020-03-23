@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1584988302 "Corrige-Cours-CalculIntegralPartie2-2020.tex" "Corrige-Cours-CalculIntegralPartie2-2020.pdf" "Corrige-Cours-CalculIntegralPartie2-2020" 1584988302
+["pdflatex"] 1584994772 "Corrige-Cours-CalculIntegralPartie2-2020.tex" "Corrige-Cours-CalculIntegralPartie2-2020.pdf" "Corrige-Cours-CalculIntegralPartie2-2020" 1584994772
   "/etc/texmf/web2c/texmf.cnf" 1528405447 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -317,19 +317,19 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1528405644 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1539415226 4127208 3f5262b6af199d122e9b992ae6e0d197 ""
-  "Corrige-Cours-CalculIntegralPartie2-2020.aux" 1584988256 6177 faad28cf51730916bf035d054d2a7452 ""
-  "Corrige-Cours-CalculIntegralPartie2-2020.nav" 1584988256 3062 d5d23346c34923d7d980a69ef7227025 ""
-  "Corrige-Cours-CalculIntegralPartie2-2020.out" 1584988252 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Corrige-Cours-CalculIntegralPartie2-2020.tex" 1584988301 38509 c100b9c8a906217330a26be3fb264ce6 ""
+  "Corrige-Cours-CalculIntegralPartie2-2020.aux" 1584994739 6400 4a1bce742752d0aa2dd0d71280cbd2cf ""
+  "Corrige-Cours-CalculIntegralPartie2-2020.nav" 1584994739 3155 b379335c0c1e73cb5bf3ba258b1317d0 ""
+  "Corrige-Cours-CalculIntegralPartie2-2020.out" 1584994736 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Corrige-Cours-CalculIntegralPartie2-2020.tex" 1584994770 39407 58dc32b2383d7f3e5d6a82463187ec53 ""
   "images/exemple1.png" 1584526964 12437 b20ea76d108d385ccfb795be97297b82 ""
   "images/exemple2.png" 1584528590 22532 dbacd786da3320c49d60f4d482794b92 ""
   "images/exemple4.png" 1584531131 32736 0aea22db731d1b561b7d060ed9816ecd ""
   "images/exemple8.png" 1584637410 37009 29cb61d977ec16263da6fe18500d6ef5 ""
   (generated)
+  "Corrige-Cours-CalculIntegralPartie2-2020.nav"
+  "Corrige-Cours-CalculIntegralPartie2-2020.snm"
   "Corrige-Cours-CalculIntegralPartie2-2020.toc"
   "Corrige-Cours-CalculIntegralPartie2-2020.out"
   "Corrige-Cours-CalculIntegralPartie2-2020.aux"
-  "Corrige-Cours-CalculIntegralPartie2-2020.snm"
-  "Corrige-Cours-CalculIntegralPartie2-2020.log"
   "Corrige-Cours-CalculIntegralPartie2-2020.pdf"
-  "Corrige-Cours-CalculIntegralPartie2-2020.nav"
+  "Corrige-Cours-CalculIntegralPartie2-2020.log"

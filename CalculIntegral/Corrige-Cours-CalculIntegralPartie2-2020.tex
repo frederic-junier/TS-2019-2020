@@ -552,6 +552,7 @@ _{\substack{x \to #1 \\ x > #1 }} #2}
 			\item \hyperlink{exemple8}{Exemple 8}
 			\item \hyperlink{exemple9}{Exemple 9}
 				\item \hyperlink{exemple10}{Exemple 10}
+						\item \hyperlink{exemple11}{Exemple 11}
 \end{itemize}
 
 \end{frame}
@@ -1093,7 +1094,6 @@ La partie grisée est comprise entre l'axe des abscisses d'équation $y=0$ et la
 
 \begin{frame}
 \frametitle{Exemple  10 Partie 2}
-\label{exemple10}
 
 \begin{itemize}
 	\item  $\displaystyle\int_{-1}^{1}\sqrt{1-x^2}\dx$  est l'aire du demi-disque de rayon $1$ donc c'est $\frac{1}{2}\times \pi \times 1^{2}=\frac{\pi}{2}$.
@@ -1111,7 +1111,7 @@ On a donc $\int_{-1}^{0}g(x)\dx = -\int_{0}^{1}g(x)\dx \Leftrightarrow  \display
 
 \begin{frame}
 \frametitle{Exemple  10 Partie 3}
-\label{exemple10}
+
 
 \begin{itemize}
 	
@@ -1129,6 +1129,37 @@ Finalement, on a  $\boxed{\displaystyle\int_{-1}^{1}f(x)\dx = \frac{\pi}{4}}$.
 
 
 \end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple  11}
+\label{exemple11}
+
+Soient $f$ et $g$ deux fonctions continues sur $\Interff{1}{5}$, on donne :
+$$I=\int_{1}^{2} f(x)\dx=-3   \qquad J=\int_{5}^{2} f(x)\dx=2 \qquad  K=\int_{1}^{5} g(x)\dx=12$$
+Calculer $L=\int_{1}^{5} f(x)\dx$, $M=\int_{1}^{5} (f(x)+g(x))\dx$ puis $N=\int_{1}^{5} (2f(x)-3g(x))\dx$.
+
+\begin{itemize}
+	
+\item  On applique la relation de Chasles : 
+
+$L=\int_{1}^{5} f(x)\dx =\int_{1}^{2} f(x)\dx + \int_{2}^{5} f(x)\dx  = \int_{1}^{2} f(x)\dx  - \int_{5}^{2} f(x)\dx = I - J=-5 $
+
+\item On applique la propriété de linéarité  :
+
+$M=\int_{1}^{5} (f(x)+g(x))\dx = \int_{1}^{5} f(x)\dx  + \int_{1}^{5} g(x)\dx  = I + K = -5+12=7$
+
+
+\item On applique la propriété de linéarité  :
+
+$N=\int_{1}^{5} (2f(x)-3g(x))\dx=2\int_{1}^{5}f(x)\dx - 3 \int_{1}^{5}g(x)\dx = 2 \times (-5) -3 \times (12)= -46$
+
+\end{itemize}
+
+
+\end{frame}
+
 
 
 \end{document}

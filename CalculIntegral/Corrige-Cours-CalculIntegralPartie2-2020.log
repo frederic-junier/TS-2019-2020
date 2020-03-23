@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  23 MAR 2020 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  23 MAR 2020 21:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2300,64 +2300,64 @@ Non-PDF special ignored!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 571
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 572
 .
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for FML+futmi on input line 57
-1.
+2.
 (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 571.
+(Font)              scaled to size 10.07397pt on input line 572.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 571.
+(Font)              scaled to size 7.63599pt on input line 572.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 571.
-LaTeX Font Info:    Try loading font information for U+msa on input line 571.
+(Font)              scaled to size 5.51999pt on input line 572.
+LaTeX Font Info:    Try loading font information for U+msa on input line 572.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 571.
+LaTeX Font Info:    Try loading font information for U+msb on input line 572.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 571.
+(Font)              scaled to size 10.07397pt on input line 572.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 571.
+(Font)              scaled to size 7.63599pt on input line 572.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 571.
+(Font)              scaled to size 5.51999pt on input line 572.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 571.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 572.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8.3> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 571.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 572.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 571.
-<images/exemple1.png, id=104, 385.44pt x 387.4475pt>
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 572.
+<images/exemple1.png, id=106, 385.44pt x 387.4475pt>
 File: images/exemple1.png Graphic file (type png)
 <use images/exemple1.png>
-Package pdftex.def Info: images/exemple1.png  used on input line 571.
+Package pdftex.def Info: images/exemple1.png  used on input line 572.
 (pdftex.def)             Requested size: 154.17326pt x 154.97624pt.
 [3
 
  <./images/exemple1.png>]
 File: images/exemple1.png Graphic file (type png)
 <use images/exemple1.png>
-Package pdftex.def Info: images/exemple1.png  used on input line 583.
+Package pdftex.def Info: images/exemple1.png  used on input line 584.
 (pdftex.def)             Requested size: 154.17326pt x 154.97624pt.
 [4
 
 ]
-<images/exemple2.png, id=162, 610.28pt x 378.41376pt>
+<images/exemple2.png, id=164, 610.28pt x 378.41376pt>
 File: images/exemple2.png Graphic file (type png)
 <use images/exemple2.png>
-Package pdftex.def Info: images/exemple2.png  used on input line 607.
+Package pdftex.def Info: images/exemple2.png  used on input line 608.
 (pdftex.def)             Requested size: 122.05383pt x 75.6814pt.
 
-Overfull \vbox (8.97635pt too high) detected at line 607
+Overfull \vbox (8.97635pt too high) detected at line 608
  []
 
 [5
@@ -2367,7 +2367,7 @@ Overfull \vbox (8.97635pt too high) detected at line 607
 ]
 File: images/exemple2.png Graphic file (type png)
 <use images/exemple2.png>
-Package pdftex.def Info: images/exemple2.png  used on input line 649.
+Package pdftex.def Info: images/exemple2.png  used on input line 650.
 (pdftex.def)             Requested size: 122.05383pt x 75.6814pt.
 [7
 
@@ -2378,15 +2378,15 @@ Package pdftex.def Info: images/exemple2.png  used on input line 649.
 ] [10
 
 ]
-<images/exemple4.png, id=328, 991.705pt x 567.11874pt>
+<images/exemple4.png, id=330, 991.705pt x 567.11874pt>
 File: images/exemple4.png Graphic file (type png)
 <use images/exemple4.png>
-Package pdftex.def Info: images/exemple4.png  used on input line 712.
+Package pdftex.def Info: images/exemple4.png  used on input line 713.
 (pdftex.def)             Requested size: 198.33748pt x 113.42174pt.
 [11
 
  <./images/exemple4.png>]
-Overfull \hbox (5.86575pt too wide) detected at line 734
+Overfull \hbox (5.86575pt too wide) detected at line 735
 \T1/lmss/m/sl/10.95 F[]\OT1/lmss/m/n/10.95 (\T1/lmss/m/sl/10.95 x\OT1/lmss/m/n/
 10.95 ) \FMS/futm/m/n/10.95 Å [] ^^@ \T1/lmss/m/n/10.95 1 \FMS/futm/m/n/10.95 Å
  [] ^^@ \T1/lmss/m/n/10.95 1
@@ -2403,7 +2403,7 @@ Overfull \hbox (5.86575pt too wide) detected at line 734
 ] [16
 
 ]
-Overfull \hbox (19.05707pt too wide) detected at line 842
+Overfull \hbox (19.05707pt too wide) detected at line 843
 \T1/lmss/m/sl/10.95 F\OT1/lmss/m/n/10.95 (\T1/lmss/m/sl/10.95 x\OT1/lmss/m/n/10
 .95 ) \FMS/futm/m/n/10.95 Å ^^@ []\OT1/lmss/m/n/10.95 ([] \T1/lmss/m/sl/10.95 x
  []\OT1/lmss/m/n/10.95 ) \FMS/futm/m/n/10.95 Ä \T1/lmss/m/sl/10.95 k \FMS/futm/
@@ -2420,7 +2420,7 @@ tm/m/n/10.95 ^^@ \T1/lmss/m/sl/10.95 x \FMS/futm/m/n/10.95 É \T1/lmss/m/n/10.95
 ] [19
 
 ]
-Overfull \hbox (3.14932pt too wide) detected at line 901
+Overfull \hbox (3.14932pt too wide) detected at line 902
 \T1/lmss/m/sl/10.95 F\OT1/lmss/m/n/10.95 (\T1/lmss/m/sl/10.95 x\OT1/lmss/m/n/10
 .95 ) \FMS/futm/m/n/10.95 Å ^^@[] Ä \T1/lmss/m/sl/10.95 k \FMS/futm/m/n/10.95 Å
  ^^@[][] Ä \T1/lmss/m/sl/10.95 k \FMS/futm/m/n/10.95 Å []\T1/lmss/m/sl/10.95 k[
@@ -2430,7 +2430,7 @@ Overfull \hbox (3.14932pt too wide) detected at line 901
 [20
 
 ]
-Overfull \hbox (14.28174pt too wide) detected at line 928
+Overfull \hbox (14.28174pt too wide) detected at line 929
 \T1/lmss/m/sl/10.95 F\OT1/lmss/m/n/10.95 (\T1/lmss/m/sl/10.95 x\OT1/lmss/m/n/10
 .95 ) \FMS/futm/m/n/10.95 Å ^^@ []\OT1/lmss/m/n/10.95 ([] \T1/lmss/m/sl/10.95 u
 \OT1/lmss/m/n/10.95 (\T1/lmss/m/sl/10.95 x\OT1/lmss/m/n/10.95 ) []) \FMS/futm/m
@@ -2449,10 +2449,10 @@ s/m/n/10.95 ([][] \FMS/futm/m/n/10.95 Ä \T1/lmss/m/n/10.95 1\OT1/lmss/m/n/10.95
 ] [23
 
 ]
-<images/exemple8.png, id=674, 451.6875pt x 447.6725pt>
+<images/exemple8.png, id=676, 451.6875pt x 447.6725pt>
 File: images/exemple8.png Graphic file (type png)
 <use images/exemple8.png>
-Package pdftex.def Info: images/exemple8.png  used on input line 985.
+Package pdftex.def Info: images/exemple8.png  used on input line 986.
 (pdftex.def)             Requested size: 135.5073pt x 134.30278pt.
 [24
 
@@ -2466,24 +2466,14 @@ Package pdftex.def Info: images/exemple8.png  used on input line 985.
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1063 \end{frame}
+l.1064 \end{frame}
                    [28
 
 ] [29
 
-]pdfTeX warning (ext4): destination with the same identifier (name{exemple10}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1108 \end{frame}
-                   [30
+] [30
 
-]pdfTeX warning (ext4): destination with the same identifier (name{exemple10}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1131 \end{frame}
-                  
+]
 
 LaTeX Warning: Command \d invalid in math mode on input line 1131.
 
@@ -2527,6 +2517,8 @@ deleted material, e.g., by typing `I$}'.
 
 [31
 
+] [32
+
 ]
 \tf@nav=\write9
 \openout9 = `Corrige-Cours-CalculIntegralPartie2-2020.nav'.
@@ -2539,11 +2531,11 @@ deleted material, e.g., by typing `I$}'.
 
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1134.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1134.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1165.
 (./Corrige-Cours-CalculIntegralPartie2-2020.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1134.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1165.
 
 Package rerunfilecheck Info: File `Corrige-Cours-CalculIntegralPartie2-2020.out
 ' has not changed.
@@ -2553,10 +2545,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 45724 strings out of 492982
- 888394 string characters out of 6134895
- 1336230 words of memory out of 5000000
- 48375 multiletter control sequences out of 15000+600000
+ 45730 strings out of 492982
+ 888449 string characters out of 6134895
+ 1336291 words of memory out of 5000000
+ 48378 multiletter control sequences out of 15000+600000
  582815 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,72p,10392b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2579,11 +2571,11 @@ xmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lms
 sbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmsso8.pfb></usr/share/texlive/texmf-dist/fonts/type1/ad
 obe/utopia/putr8a.pfb>
-Output written on Corrige-Cours-CalculIntegralPartie2-2020.pdf (31 pages, 36455
-9 bytes).
+Output written on Corrige-Cours-CalculIntegralPartie2-2020.pdf (32 pages, 36766
+6 bytes).
 PDF statistics:
- 952 PDF objects out of 1000 (max. 8388607)
- 877 compressed objects within 9 object streams
- 73 named destinations out of 1000 (max. 500000)
+ 981 PDF objects out of 1000 (max. 8388607)
+ 904 compressed objects within 10 object streams
+ 76 named destinations out of 1000 (max. 500000)
  87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
