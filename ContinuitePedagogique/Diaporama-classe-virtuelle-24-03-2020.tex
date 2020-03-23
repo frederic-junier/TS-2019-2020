@@ -11,7 +11,7 @@
 
 %%%%%%%Tit\title{Titre principal}
 
-\title[exponentielle]{Classe virtuelle du 23/03/2020}
+\title[exponentielle]{Classe virtuelle du 24/03/2020}
 %\subtitle{Sous titre}
 \author[F.Junier]{Fr\'ed\'eric Junier}
 \institute[Le Parc]{{\centering Lyc\'ee du Parc \\
@@ -542,128 +542,89 @@ _{\substack{x \to #1 \\ x > #1 }} #2}
 \begin{frame}
 \frametitle{Table des matières}
 \begin{itemize}
-	\item \hyperlink{primitives}{Primitives}
-		\item \hyperlink{integrale}{Intégrale d'une fonction positive}
-			\item \hyperlink{exemple8}{Exemple 8}
-		\item \hyperlink{exo10}{Exercice 10 p.195}
-		\item \hyperlink{calcint}{Exemples de calculs d'intégrales}
-\end{itemize}
-
-\end{frame}
-
-\begin{frame}
-\frametitle{Calcul de primitives}
-\label{primitives}
-
-Le point sur le calcul de primitives :
-
-\begin{itemize}
-  \item Cours : connaître les tableaux des primitives usuelles et des opérations sur les primitives (pages 8 et 9 du cours)
-  \item S'exercer : QCM Calcul Intégral 2 sur Pronote
+		\item \hyperlink{chasles}{Propriété de l'intégrale : Chasles}
+	    \item \hyperlink{linearite}{Propriété de l'intégrale : Linéarité}
 \end{itemize}
 
 \end{frame}
 
 
-
 \begin{frame}
-\frametitle{Intégrale d'une fonction positive}
-\label{integrale}
-
-Théorème 4, page 10 du cours :
+\frametitle{Propriété de l'intégrale : Chasles}
+\label{chasles}
 
 \begin{theorem}
-Soit $f$ une fonction continue positive  sur un intervalle $I$. Soient $a$ et $b$ deux réels de $I$ tels que $a<b$. Soit $F$ une primitive de $f$. On a :\\
-\[\displaystyle\int_{a}^{b}f(x)\dx=F(b)-F(a)\]
-Le calcul de l'intégrale ne dépend pas de la primitive choisie.
-
-On note aussi : $\displaystyle\int_{a}^{b}f(x)\dx=\Bigl[F(x)\Bigr]_{a}^{b}=F(b)-F(a)$
-
-
+$\displaystyle\int_{a}^{b}f(x)\dx=\displaystyle\int_{a}^{c}f(x)\dx+\displaystyle\int_{c}^{b}f(x)\dx$
 \end{theorem}
 
-\end{frame}
-
-
-\begin{frame}
-\frametitle{Intégrale d'une fonction positive : un exemple}
+Un exemple, on donne $\integralex{0}{2}{f(x)}=5$ et $\integralex{0}{5}{f(x)}=7$ 
 
 \begin{itemize}
-\item  Comment calculer $\integralex{1}{2}{\frac{1}{x}}$ qui représente l'aire sous l'hyperbole entre les abscisses $1$ et $2$ dans un repère orthonormal d'unité 3 cm ?
-\pause \item On détermine d'abord une primitive de $\frac{1}{x}$, par exemple $F(x)=\ln(x)$. 
-\pause \item Ensuite, on calcule $F(2)-F(1)=\ln(2)-\ln(1)=\ln(2)$
-\pause \item Enfin, on donne le résultat en unités d'aires :   $\integralex{1}{2}{\frac{1}{x}}=\ln(2) \text{ u.a.}$
-et on convertit éventuellement en cm$^{2}$, ici 1 u.a. égale à $3 \times  3 = 9 $ cm$^{2}$.
-On a donc $\integralex{1}{2}{\frac{1}{x}}=\ln(2) \times 9 = 9\ln(2)$ cm$^{2}$.
+
+\item  Calculer  $\integralex{2}{0}{f(x)}$ :
+\pause \item $\integralex{2}{0}{f(x)} + \integralex{0}{2}{f(x)}=\integralex{2}{2}{f(x)}=0$ donc $\integralex{2}{0}{f(x)}=-\integralex{0}{2}{f(x)}=-5$
+\item  Calculer  $\integralex{2}{5}{f(x)}$ :
+\pause \item $\integralex{0}{2}{f(x)} + \integralex{2}{5}{f(x)}=\integralex{0}{5}{f(x)}=0$ donc :
+
+$\integralex{2}{5}{f(x)}=-\integralex{0}{5}{f(x)}-\integralex{0}{2}{f(x)}=7-5=2$
 \end{itemize}
 
-\end{frame}
-
-
-
-\begin{frame}
-\frametitle{Intégrale d'une fonction positive : exemple 8}
-\label{exemple8}
-
-Voir \href{../CalcuIntegral/Corrige-Cours-CalculIntegralPartie2-2020.pdf}{le corrigé}.
 
 \end{frame}
 
 
-
 \begin{frame}
-\frametitle{Correction de l'exo 10 p.195}
-\label{exo10}
+\frametitle{Propriété de l'intégrale : Linéarité}
+\label{linearite}
 
-Dans cet exercice on calcule des intégrales avec la définition générale de l'intégrale (cours page   11) $\integralex{a}{b}{f(x)}=F(b)-F(a)$ où $f$ continue mais pas forcément positive et sans ordre fixé sur $a$ et $b$.
+\begin{theorem}
+ $\displaystyle\int_{a}^{b} \left(\alpha f(x)+ \beta g(x)\right)\dx=\alpha \displaystyle\int_{a}^{b}f(x)\dx+\beta \displaystyle\int_{a}^{b}g(x)\dx$
+\end{theorem}
+
+Un exemple, on donne $\integralex{0}{2}{f(x)}=5$ et $\integralex{2}{0}{g(x)}=6$ 
+
 \begin{itemize}
- \item $\integralex{-2}{4}{x}=\left[\frac{1}{2}x^{2} \right]_{-2}^{4} =\frac{16}{2}-\frac{4}{2}=6 $ 
-\item $\integralex{1}{\text{e}}{\frac{1}{x}}=\left[\ln(x) \right]_{-2}^{4} =\ln(\text{e})-\ln(1)=1 $ 
-\item $\integralex{-\text{e}}{-1}{\frac{1}{x}}=\left[\ln(\valabs{x}) \right]_{-\text{e}}^{-1} =\ln(1)-\ln(\text{e})=-1$ 
-\item $\integralex{4}{25}{\frac{1}{\sqrt{x}}}=\left[2\sqrt{x} \right]_{4}^{25} =2\sqrt{25}-2\sqrt{4}=10-4=6 $ 
-\item $\integralex{0}{\pi}{\sin(x)}=\left[-\cos(x)\right]_{0}^{\pi} =1 - (-1) = 2$ 
-\item $\integralex{\pi}{0}{\sin(x)}=\left[-\cos(x)\right]_{\pi}^{0} =-1 - (-(-1)) = -2$ 
+
+\item  Calculer  $\integralex{0}{2}{3f(x)}$ :
+\pause \item $\integralex{0}{2}{3f(x)} = 3 \integralex{0}{2}{f(x)}=15$  
+\item  Calculer  $\integralex{0}{2}{3f(x)-4g(x)}$ :
+\pause \item $\integralex{0}{2}{3f(x)-4g(x)}=3 \integralex{0}{2}{f(x)} - 4 \integralex{0}{2}{g(x)}$
+
+ 
+\bcattention{} Attention  à l'ordre des bornes ! $\integralex{0}{2}{g(x)} = - \integralex{2}{0}{g(x)}$
+
+Donc $\integralex{0}{2}{3f(x)-4g(x)}=3 \integralex{0}{2}{f(x)} + 4 \integralex{2}{0}{g(x)}=3 \times 5 + 4 \times 6 = 29$
+
 \end{itemize}
 
-\end{frame}
-
-
-
-
-\begin{frame}
-\frametitle{Exemples de calcul d'intégrale : questions}
-\label{calcint}
-
-Calculer les intégrales suivantes (exemple 9 du cours à faire en autonomie pendant la séance de mardi).
-\begin{itemize}
- \item $\integralex{1}{4}{x^{3}+2x}$
-\item  $\integralex{\text{e}}{\text{e}^{3}}{\frac{\ln(x)}{x}}$
-\item $\integralex{\text{e}}{\text{e}^{3}}{\frac{1}{x(\ln(x)+1)}}$
-\item $\integralex{2}{0}{\frac{\text{e}^{x}}{\sqrt{\text{e}^{x}+1}}}$
-\end{itemize}
 
 \end{frame}
 
 
 \begin{frame}
-\frametitle{Exemples de calcul d'intégrale : réponses}
-\label{calcint}
+\frametitle{Attention aux confusions}
+\label{linearite}
 
-Calculer les intégrales suivantes (exemple 9 du cours à faire en autonomie pendant la séance de mardi).
+\bcattention{} Ne pas confondre les propriétés de Chasles et de linéarité : 
+
 \begin{itemize}
- \item $\integralex{1}{4}{x^{3}+2x}=?$
-\pause \item  $\integralex{1}{4}{x^{3}+2x}=\left[\frac{1}{4}x^{4}+x^{2}\right]_{1}^{4}=\frac{315}{4}$
-\item $\integralex{\text{e}}{\text{e}^{3}}{\frac{\ln(x)}{x}}=?$
-\pause  \item  $\integralex{\text{e}}{\text{e}^{3}}{\frac{\ln(x)}{x}}=\left[\frac{1}{2}(\ln(x))^{2}\right]_{\text{e}}^{\text{e}^{3}}=\frac{1}{2}\left(3^{2}-1\right)=4$
 
-\item $\integralex{\text{e}}{\text{e}^{3}}{\frac{1}{x(\ln(x)+1)}}=?$
-\pause \item $\integralex{\text{e}}{\text{e}^{3}}{\frac{1}{x(\ln(x)+1)}}=\left[\ln(\valabs{\ln(x)+1})\right]_{\text{e}}^{\text{e}^{3}}=\ln(4)-\ln(2)$
-\item $\integralex{2}{0}{\frac{\text{e}^{x}}{\sqrt{\text{e}^{x}+1}}}$
-\pause \item $\integralex{2}{0}{\frac{\text{e}^{x}}{\sqrt{\text{e}^{x}+1}}}=\left[2\sqrt{\text{e}^{x}+1}\right]_{2}^{0}=2\sqrt{3}-2\sqrt{\text{e}^{2}+1}$
+
+\item  $\integralex{0}{3}{f(x)}+\integralex{3}{6}{f(x)}=\integralex{0}{6}{f(x)}$ par  Chasles (bornes consécutives)
+ 
+  \item $\integralex{0}{3}{2f(x)}=2\integralex{0}{3}{f(x)}$ par linéarité  (mêmes bornes)
+  
+   
+  \item $\integralex{0}{3}{2f(x)}+ \integralex{1}{4}{f(x)}\neq \integralex{0}{3}{3f(x)}$ 
+  
+ On ne peut pas simplifier cette somme d'intégrale, en appliquant Chasles et la linéarité on peut obtenir par exemple :
+  
+   $\integralex{0}{3}{2f(x)}+ \integralex{1}{4}{f(x)} =\integralex{0}{3}{3f(x)} +  \integralex{3}{4}{f(x)} +  -\integralex{0}{1}{f(x)} $ 
+  
 \end{itemize}
 
-\end{frame}
 
+\end{frame}
 
 
 

@@ -11,7 +11,7 @@
 
 %%%%%%%Tit\title{Titre principal}
 
-\title[exponentielle]{Exemples du cours du chapitre calcul int\'egral Partie 2 2019/2020}
+\title[exponentielle]{Exemples du cours du chapitre calcul int\'egral 2019/2020}
 %\subtitle{Sous titre}
 \author[F.Junier]{Fr\'ed\'eric Junier}
 \institute[Le Parc]{{\centering Lyc\'ee du Parc \\
@@ -550,6 +550,8 @@ _{\substack{x \to #1 \\ x > #1 }} #2}
 	\item \hyperlink{exemple6}{Exemple 6}
 		\item \hyperlink{exemple7}{Exemple 7}
 			\item \hyperlink{exemple8}{Exemple 8}
+			\item \hyperlink{exemple9}{Exemple 9}
+				\item \hyperlink{exemple10}{Exemple 10}
 \end{itemize}
 
 \end{frame}
@@ -1005,7 +1007,128 @@ De plus, par additivité des aires, l'intégrale   $L=\int_{0}^{1} 1-x^2  \ \dx$
 
 On peut noter que pour tout réel $x \in \Interff{0}{1}$, on a $0  \leqslant x^{2}   \leqslant x  \leqslant 1$, donc $0 \leqslant x - x^{2} \leqslant 1- x^{2}$ et donc $M \leqslant L$.  
 
-\end{frame}\\
+\end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{Exemple  9 Partie 1}
+\label{exemple9}
+
+Calculer les intégrales suivantes :
+
+			\begin{enumerate}
+			\item $\int_{-1}^{1}\frac{\text{e}^x}{\sqrt{\text{e}^x+1}} \ \dx = \left[2\sqrt{\text{e}^x+1}\right]_{-1}^{1}=2\sqrt{\text{e}^{1}+1}-2\sqrt{\text{e}^{-1}+1}$  ;
+				\item $\int_{2}^{4}\frac{1}{(2x-1)^4} \ \dx =   \left[\frac{1}{2}\times \frac{1}{-4+1}(2x-1)^{-4+1}\right]_{2}^{4}$
+				
+				$\int_{2}^{4}\frac{1}{(2x-1)^4} \ \dx = \frac{1}{2}\times \frac{1}{-4+1}(7)^{-4+1}- \frac{1}{2}\times \frac{1}{-4+1}(3)^{-4+1}$
+				
+				\item $\int_{0}^{2\pi} \cos\left( \theta \right)  \ d\theta  =  \left[\sin\left( \theta \right)\right]_{0}^{2\pi}=0-0=0$;
+				
+				\item $\int_{0}^{\pi} \cos \left( 2\theta \right)  \ d\theta =  \left[\frac{1}{2}\sin\left( 2\theta \right)\right]_{0}^{\pi}=0-0=0$;
+							
+				\item $\int_{-4}^{-2}(3x-1)^6 \dx = \left[\frac{1}{3}\times \frac{1}{7}(3x-1)^{7}\right]_{-4}^{-2}=\frac{1}{21}\left(-7^{7}+13^{7} \right)$ ;
+				\item $\int_{0}^{x}\sin^2(t) \ \dt$. Il faut linéariser $\sin^{2}(t)$ avec les formules de duplication du sinus (voir chapitre sur les complexes Partie 2) : $\sin^{2}(t)=\frac{1-\cos(2t)}{2}$ donc :
+				
+				$\int_{0}^{x}\sin^2(t) \ \dt = \left[\frac{1-\cos(2t)}{2}\right]_{0}^{x}= \frac{1-\cos(2x)}{2}-0$
+				
+		
+			\end{enumerate}
+
+\end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{Exemple  9 Partie 2}
+\label{exemple9}
+
+Calculer les intégrales suivantes :
+
+			\begin{enumerate}
+						
+				\item $\int_{e}^{e^3} \frac{1}{x \ln x} \ \dx = \left[\ln(\valabs{\ln(x)})\right]_{e}^{e^3}=\ln(\ln(3))- \ln(1)=\ln(\ln(3))$
+				\item $\int_{0}^{x} \frac{1}{1+\text{e}^t}  \ \dt$ Ici il faut transformer l'expression pour faire apparaître une forme $\frac{u'}{u}$ (ici $-\frac{u'}{u}$). L'astuce classique avec l'exponentielle : $\text{e}^{t}\times \text{e}^{-t}=1$.
+
+$\int_{0}^{x} \frac{1}{1+\text{e}^t}  \ \dt = \int_{0}^{x} \frac{\text{e}^{-t} \times 1}{\text{e}^{-t}(1+\text{e}^t)}  \ \dt =\int_{0}^{x} \frac{\text{e}^{-t} \times 1}{\text{e}^{-t}+1}  \ \dt$
+
+Puis : 	$\int_{0}^{x} \frac{\text{e}^{-t}  }{\text{e}^{-t}+1}  \ \dt=\left[-\ln(\valabs{\text{e}^{-t}+1})\right]_{0}^{x}=-\ln(\text{e}^{-x}+1) + \ln(2)$
+
+				
+				\item $\int_{2}^{e} \frac{1}{x(\ln(x))^2}  \ \dx = \left[-\frac{1}{\ln(x)}\right]_{2}^{e}=-\frac{1}{\ln(e)}+\frac{1}{\ln(2)} =\frac{1}{\ln(2)}-1$ Ici on a écrit $\frac{1}{x(\ln(x))^2}=\frac{u'(x)}{u^{2}(x)}$ avec $u(x)=\ln(x)$ pour déterminer une primitive qui est $-\frac{1}{u(x)}$.
+			\end{enumerate}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple  10 Partie  1}
+\label{exemple10}
+
+
+Le demi-cercle $\Gamma$ de rayon $1$, représenté sur la figure ci-dessous, a pour équation $y=\sqrt{1-x^2}$.
+
+La partie grisée est comprise entre l'axe des abscisses d'équation $y=0$ et la courbe $\courbe{f}$ de la fonction $f$ définie sur  $\Interff{-1}{1}$ par 	$f(x)=\frac{1}{2}(1-x)\sqrt{1-x^2}$.
+
+\begin{center}
+\begin{tikzpicture}[xmin=-1.5,xmax=1.5,ymin=-0.5,ymax=1.5,scale=1.5]
+\fenetre
+\draw[thick] plot[samples=1000,smooth,domain=-1:0.99] (\x,{sqrt(1 - \x * \x)});
+\draw[thick] plot[samples=100,smooth,domain=0.99:1] (\x,{sqrt(1 - \x * \x)});
+\filldraw[thick, fill=gray!50] plot[thick,samples=1000,smooth,domain=-1:1] (\x,{sqrt(1 - \x * \x)*(1-\x)/2}) -- (-1,0);
+\axes
+\draw[thick] (0,1) node[above left] {$1$};
+\draw[thick] (1,0) node[below right] {$1$};
+\draw[thick] (-1,0) node[below left] {$-1$};
+\draw (0,0) node [below left] {O};
+\draw (0.71, 0.71) node[above] {$\Gamma$};
+\draw (0.2, 0.4) node[above right] {$\courbe{f}$};
+\end{tikzpicture}
+\end{center}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple  10 Partie 2}
+\label{exemple10}
+
+\begin{itemize}
+	\item  $\displaystyle\int_{-1}^{1}\sqrt{1-x^2}\dx$  est l'aire du demi-disque de rayon $1$ donc c'est $\frac{1}{2}\times \pi \times 1^{2}=\frac{\pi}{2}$.
+	\item Pour tout réel $x \in \Interff{-1}{1}$, si on note $g(x)= x\sqrt{1-x^2}$, on a$g(-x)=-g(x)$ donc par symétrie centrale de centre l'origine du repère  $\int_{-1}^{0}g(x)\dx$ est l'opposé de l'aire du domaine sous la courbe de $g$  sur l'intervalle $\Interff{0}{1}$.
+
+On a donc $\int_{-1}^{0}g(x)\dx = -\int_{0}^{1}g(x)\dx \Leftrightarrow  \displaystyle\int_{-1}^{0}x\sqrt{1-x^2}\dx=-\displaystyle\int_{0}^{1}x\sqrt{1-x^2}\dx $.
+
+
+\end{itemize}
+
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple  10 Partie 3}
+\label{exemple10}
+
+\begin{itemize}
+	
+\item $\displaystyle\int_{-1}^{1}f(x)\dx = \displaystyle\int_{-1}^{1}\frac{1}{2}(1-x)\sqrt{1-x^2} \dx =\frac{1}{2}\displaystyle\int_{-1}^{1}(1-x)\sqrt{1-x^2} \dx$ par linéarité.
+
+De nouveau par linéarité, on a $\displaystyle\int_{-1}^{1}f(x)\dx =\frac{1}{2}\left(\int_{-1}^{1}\sqrt{1-x^2} \dx - \int_{-1}^{1}x\sqrt{1-x^2} \dx\right) = \frac{1}{2}\left(\frac{\pi}{2}-  \int_{-1}^{1}x\sqrt{1-x^2}\dx \right) $.
+
+En appliquant la relation de Chasles, on a  $ \int_{-1}^{1}x\sqrt{1-x^2}\dx = \int_{-1}^{0}x\sqrt{1-x^2}\dx + \int_{0}^{1}x\sqrt{1-x^2}\d$
+
+D'après la propriété d'antisymétrie de la question 2), il vient $-\int_{0}^{1}x\sqrt{1-x^2}\dx +  \int_{0}^{1}x\sqrt{1-x^2}\dx=0$.
+
+Finalement, on a  $\boxed{\displaystyle\int_{-1}^{1}f(x)\dx = \frac{\pi}{4}}$.
+
+\end{itemize}
+
+
+\end{frame}
 
 
 \end{document}
