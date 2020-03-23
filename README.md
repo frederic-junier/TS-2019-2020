@@ -32,6 +32,8 @@ Documents pour ma  classe de terminale S
   * le mercredi 18/03 de 8 h 30 à 9 h 30
   * le jeudi 19/03 de 9 h à 10 h
   * le lundi 23/03 de 11 h à 12 h
+  * le mercredi 25/03 à 9 h
+  * le jeudi 26/03 à 9 h
   
   
 * Sites de ressources en lignes :
@@ -44,6 +46,7 @@ Documents pour ma  classe de terminale S
   - [Séance du 18-03-2020](ContinuitePedagogique/seance-18-03-2020.md)
   - [Séance du 19-03-2020](ContinuitePedagogique/seance-19-03-2020.md)
   - [Séance du 23-03-2020](ContinuitePedagogique/seance-23-03-2020.md)
+  - [Séance du 24-03-2020](ContinuitePedagogique/seance-24-03-2020.md)
 
 
  
