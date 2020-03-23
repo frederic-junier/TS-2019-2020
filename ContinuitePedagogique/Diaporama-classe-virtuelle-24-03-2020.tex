@@ -11,7 +11,7 @@
 
 %%%%%%%Tit\title{Titre principal}
 
-\title[exponentielle]{Classe virtuelle du 24/03/2020}
+\title[exponentielle]{Classe à la maison du 24/03/2020}
 %\subtitle{Sous titre}
 \author[F.Junier]{Fr\'ed\'eric Junier}
 \institute[Le Parc]{{\centering Lyc\'ee du Parc \\
@@ -544,6 +544,7 @@ _{\substack{x \to #1 \\ x > #1 }} #2}
 \begin{itemize}
 		\item \hyperlink{chasles}{Propriété de l'intégrale : Chasles}
 	    \item \hyperlink{linearite}{Propriété de l'intégrale : Linéarité}
+	    \item \hyperlink{exercice}{Un exercice d'application}
 \end{itemize}
 
 \end{frame}
@@ -626,6 +627,35 @@ Donc $\integralex{0}{2}{3f(x)-4g(x)}=3 \integralex{0}{2}{f(x)} + 4 \integralex{2
 
 \end{frame}
 
+
+\begin{frame}
+\frametitle{Exercice d'application : énoncé}
+\label{exercice}
+
+{\itshape Lire d'abord la méthode 4 page 190 et faire l'exercice 53 page 199 corrigé à la fin du manuel, traiter ensuite l'exercice suivant.}
+
+On considère les intégrales $I=\integralex{0}{1}{\frac{\text{e}^{x}}{\text{e}^{x} + 1}}$ et $J=\integralex{0}{1}{\frac{1}{\text{e}^{x} + 1}}$ 
+
+\begin{enumerate}
+	\item Calculer $I$.
+	\item En utilisant la linéarité, calculer $I+J$ puis en déduire la valeur de $J$.
+\end{enumerate}
+
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Exercice d'application : corrigé}
+
+\begin{enumerate}
+	
+  \item Par ailleurs, on a $I=\integralex{0}{1}{\frac{\text{e}^{x}}{\text{e}^{x} + 1}} = \left[\ln\left(\text{e}^{x} + 1 \right) \right]_{0}^{1}$
+Donc $I=\ln(\text{e}^{1} + 1)-\ln(\text{e}^{0} + 1)=\ln(\text{e}^{1} + 1)-\ln(2)=\ln\left(\frac{\text{e}^{1} + 1}{2}\right)$.
+\item Par linéarité, on a :
+$$I+J=\integralex{0}{1}{\frac{\text{e}^{x}}{\text{e}^{x} + 1}+\frac{1}{\text{e}^{x} + 1}}=\integralex{0}{1}{\frac{\text{e}^{x}+1}{\text{e}^{x} + 1}}=\integralex{0}{1}{1}=1$$
+On a donc $J=1-I=1-\ln\left(\frac{\text{e}^{1} + 1}{2}\right)=\ln\left(\frac{2\text{e}}{\text{e}^{1} + 1}\right)$
+\end{enumerate}
+\end{frame}
 
 
 
