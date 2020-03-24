@@ -606,15 +606,18 @@ INPUT images/exemple8.png
 INPUT ./images/exemple8.png
 INPUT ./images/exemple8.png
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmi.vf
+INPUT images/exemple14.png
+INPUT ./images/exemple14.png
+INPUT ./images/exemple14.png
 OUTPUT Corrige-Cours-CalculIntegralPartie2-2020.nav
 OUTPUT Corrige-Cours-CalculIntegralPartie2-2020.toc
 OUTPUT Corrige-Cours-CalculIntegralPartie2-2020.snm
 INPUT Corrige-Cours-CalculIntegralPartie2-2020.aux
 INPUT ./Corrige-Cours-CalculIntegralPartie2-2020.out
 INPUT ./Corrige-Cours-CalculIntegralPartie2-2020.out
+INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc
-INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb
@@ -628,3 +631,4 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb

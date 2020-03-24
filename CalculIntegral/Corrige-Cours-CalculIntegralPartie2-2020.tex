@@ -11,7 +11,7 @@
 
 %%%%%%%Tit\title{Titre principal}
 
-\title[exponentielle]{Exemples du cours du chapitre calcul int\'egral 2019/2020}
+\title[int\'egration]{Exemples du cours du chapitre calcul int\'egral 2019/2020}
 %\subtitle{Sous titre}
 \author[F.Junier]{Fr\'ed\'eric Junier}
 \institute[Le Parc]{{\centering Lyc\'ee du Parc \\
@@ -553,6 +553,11 @@ _{\substack{x \to #1 \\ x > #1 }} #2}
 			\item \hyperlink{exemple9}{Exemple 9}
 				\item \hyperlink{exemple10}{Exemple 10}
 						\item \hyperlink{exemple11}{Exemple 11}
+						\item \hyperlink{exemple12}{Exemple 12}
+						\item \hyperlink{exemple13}{Exemple 13}
+						\item \hyperlink{exemple14}{Exemple 14}
+						\item \hyperlink{exemple15}{Exemple 15}
+						\item \hyperlink{exemple16}{Exemple 16}
 \end{itemize}
 
 \end{frame}
@@ -1044,7 +1049,7 @@ Calculer les intégrales suivantes :
 
 \begin{frame}
 \frametitle{Exemple  9 Partie 2}
-\label{exemple9}
+
 
 Calculer les intégrales suivantes :
 
@@ -1111,15 +1116,15 @@ On a donc $\int_{-1}^{0}g(x)\dx = -\int_{0}^{1}g(x)\dx \Leftrightarrow  \display
 
 \begin{frame}
 \frametitle{Exemple  10 Partie 3}
-
-
+%
+%
 \begin{itemize}
 	
 \item $\displaystyle\int_{-1}^{1}f(x)\dx = \displaystyle\int_{-1}^{1}\frac{1}{2}(1-x)\sqrt{1-x^2} \dx =\frac{1}{2}\displaystyle\int_{-1}^{1}(1-x)\sqrt{1-x^2} \dx$ par linéarité.
 
 De nouveau par linéarité, on a $\displaystyle\int_{-1}^{1}f(x)\dx =\frac{1}{2}\left(\int_{-1}^{1}\sqrt{1-x^2} \dx - \int_{-1}^{1}x\sqrt{1-x^2} \dx\right) = \frac{1}{2}\left(\frac{\pi}{2}-  \int_{-1}^{1}x\sqrt{1-x^2}\dx \right) $.
 
-En appliquant la relation de Chasles, on a  $ \int_{-1}^{1}x\sqrt{1-x^2}\dx = \int_{-1}^{0}x\sqrt{1-x^2}\dx + \int_{0}^{1}x\sqrt{1-x^2}\d$
+En appliquant la relation de Chasles, on a  $ \int_{-1}^{1}x\sqrt{1-x^2}\dx = \int_{-1}^{0}x\sqrt{1-x^2}\dx + \int_{0}^{1}x\sqrt{1-x^2}\dx$
 
 D'après la propriété d'antisymétrie de la question 2), il vient $-\int_{0}^{1}x\sqrt{1-x^2}\dx +  \int_{0}^{1}x\sqrt{1-x^2}\dx=0$.
 
@@ -1160,6 +1165,420 @@ $N=\int_{1}^{5} (2f(x)-3g(x))\dx=2\int_{1}^{5}f(x)\dx - 3 \int_{1}^{5}g(x)\dx = 
 
 \end{frame}
 
+
+\begin{frame}
+\frametitle{Exemple  12 Question 1)}
+\label{exemple12}
+
+
+Déterminer le signe des intégrales suivantes :
+
+\begin{itemize}
+\item $I=\integralex{\frac{1}{2}}{1}{\ln x}$
+
+Pour tout réel $x \in \Interff{\frac{1}{2}}{1}$, on a  :
+\pause\begin{align*}
+  0   & \geqslant \ln(x) \\
+ \intertext{donc par croissance de l'intégrale on a : }
+ 0 & \geqslant \integralex{\frac{1}{2}}{1}{\ln x}
+\end{align*}
+
+\item $\integralex{1}{0}{x^{2}}$
+\item $\integralex{1}{\frac{1}{\text{e}}}{\ln x}$
+\end{itemize}
+
+
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple  12 Question 1)}
+
+
+
+Déterminer le signe des intégrales suivantes :
+
+\begin{itemize}
+ \item $I=\integralex{1}{0}{x^{2}}$
+
+Pour tout réel $x \in \Interff{0}{1}$, on a  :
+\pause\begin{align*}
+  0   & \leqslant x^{2} \\
+ \intertext{donc par croissance de l'intégrale on a : }
+ 0 & \leqslant \integralex{0}{1}{x^{2}} \\ 
+  \intertext{donc par linéarité : }
+   0 & \geqslant -\integralex{0}{1}{x^{2}} \\ 
+      0 & \geqslant \integralex{1}{0}{x^{2}} \\ 
+\end{align*}
+
+
+\end{itemize}
+
+
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple  12 Question 1)}
+
+
+
+Déterminer le signe des intégrales suivantes :
+
+\begin{itemize}
+\item $I=\integralex{1}{\frac{1}{\text{e}}}{\ln x}$
+
+Pour tout réel $x \in \Interff{\frac{1}{\text{e}}}{1}$, on a  :
+\pause \begin{align*}
+  0   & \geqslant \ln x  \\
+ \intertext{donc par croissance de l'intégrale on a : }
+ 0 & \geqslant \integralex{\frac{1}{\text{e}}}{1}{\ln x} \\ 
+  \intertext{donc par linéarité : }
+   0 & \leqslant -\integralex{\frac{1}{\text{e}}}{1}{\ln x}\\ 
+      0 & \leqslant \integralex{1}{\frac{1}{\text{e}}}{\ln x} \\ 
+\end{align*}
+
+
+\end{itemize}
+
+
+
+\end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{Exemple  12 Question 2)}
+
+
+
+Soit $\suite{u}$ la suite définie pour tout entier $n \geqslant 1$ par $u_n=\integralex{0}{1}{\ln\left(1+x^n\right)}$
+
+Pour étudier le sens de variation de la suite $\suite{u}$, deux méthodes sont possibles :
+
+
+
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Exemple  12 Question 2)}
+\fbox{\textbf{Méthode 1 :On étudie le signe de $u_{n+1}-u_{n}$} }
+
+
+
+Pour tout entier $n \geqslant 1$, on a :
+\pause \begin{align*}
+u_{n+1}-u_{n} &= \integralex{0}{1}{\ln\left(1+x^{n+1}\right)} - \integralex{0}{1}{\ln\left(1+x^{n}\right)} \\
+\intertext{donc par linéarité :}
+u_{n+1}-u_{n} &= \integralex{0}{1}{\ln\left(1+x^{n+1}\right)-\ln\left(1+x^{n}\right)}
+\intertext{Or pour tout entier $n \geqslant 1$ et tout réel $x \in \Interff{0}{1}$, on a $0 \leqslant x \leqslant 1$ donc en multipliant tous les membres par $x^{n} \geqslant 0$,   $0 \leqslant x^{n+1} \leqslant x^{n}$  puis par croissance de $\ln$,  $\ln(1) \leqslant \ln(1+x^{n+1}) \leqslant \ln(1+x^{n})$ donc $ \ln(1+x^{n+1}) - \ln(1+x^{n})\leqslant 0$ et par croissance de   l'intégrale :
+}
+u_{n+1}-u_{n} &= \integralex{0}{1}{\ln\left(1+x^{n+1}\right)-\ln\left(1+x^{n}\right)} \leqslant 0
+\end{align*}
+On en déduit que la suite $\suite{u}$ est décroissante.
+
+
+
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple  12 Question 2)}
+\fbox{\textbf{Méthode 2 : $u_{n+1}\leqslant u_{n}$ par croissance de l'intégrale} }
+
+Le principe est de comparer les expressions sous le signe d'intégration et d'en déduire les inégalités sur les intégrales par croissance de l'intégrale. C'est similaire à la méthode précédente mais avec une rédaction plus légère. Pour tout entier $n \geqslant 1$, pour tout réel $x \in \Interff{0}{1}$,  on a :
+\pause \begin{align*}
+x & \leqslant 1 \\
+\intertext{on multiplie les deux membres par $x^{n}  \geqslant 0$ puis   on ajoute $1$ et on compose par le $\ln$ qui est croissant, on en déduit que :
+}
+\ln\left(1+x^{n+1}\right) &\leqslant \ln\left(1+x^{n}\right)
+\end{align*}
+
+Par croissance de l'intégrale, il vient :
+$$\integralex{0}{1}{\ln\left(1+x^{n+1}\right)} \leqslant \integralex{0}{1}{\ln\left(1+x^{n}\right)}$$
+et donc $u_{n+1}  \leqslant u_{n}$  et  la suite $\suite{u}$ est décroissante.
+
+
+
+
+\end{frame}
+
+
+
+
+
+\begin{frame}
+\frametitle{Exemple  12 Question 2)}
+Démontrer que pour tout entier $n \geqslant 1$, on a $0 \leqslant u_{n} \leqslant \ln 2$ (début).
+
+On utilise la croissance de l'intégrale. Pour tout entier $n \geqslant 1$, pour tout réel $x \in \Interff{0}{1}$,  on a $0 \leqslant 1+x^{n}  \leqslant 2$ donc par croissance de la fonction $\ln$ :
+
+\pause \begin{align*}
+0 & \leqslant \ln\left(1+x^{n}\right) \leqslant \ln(2) \\
+\intertext{par croissance de l'intégrale : }
+ \integralex{0}{1}{0} & \leqslant \integralex{0}{1}{\ln\left(1+x^{n}\right)}  \leqslant \integralex{0}{1}{\ln(2)} \\
+\intertext{par linéarité : }
+ 0 \times \integralex{0}{1}{1} & \leqslant \integralex{0}{1}{\ln\left(1+x^{n}\right)}  \leqslant \ln(2) \times \integralex{0}{1}{1} \\
+\end{align*}
+
+
+
+
+
+\end{frame}
+
+
+
+
+
+\begin{frame}
+\frametitle{Exemple  12 Question 2)}
+Démontrer que pour tout entier $n \geqslant 1$, on a $0 \leqslant u_{n} \leqslant \ln 2$ (fin):
+
+\pause \begin{align*}
+\intertext{par linéarité : }
+ 0 \times \integralex{0}{1}{1} & \leqslant \integralex{0}{1}{\ln\left(1+x^{n}\right)}  \leqslant \ln(2) \times \integralex{0}{1}{1} \\
+0 & \leqslant \integralex{0}{1}{\ln\left(1+x^{n}\right)}  \leqslant \ln(2)  \\
+0 & \leqslant u_{n}  \leqslant \ln(2)
+\end{align*}
+
+La suite $\suite{u}$ est donc minorée par $0$, comme elle est décroissante (question précédente), elle converge d'après le théorème de convergence monotone.
+
+
+
+
+\end{frame}
+
+
+
+
+
+\begin{frame}
+\frametitle{Exemple  12 Question 3)}
+Démontrer que pour tout entier $n \geqslant 1$, pour tout réel $x \in \Interff{0}{1}$ on a : $0 \leqslant \ln\left(1+x^n\right) \leqslant  x^n  $ . En déduire la limite de la  suite $\suite{u}$.
+
+On utilise encore la croissance de l'intégrale.
+
+Pour tout entier $n \geqslant 1$, pour tout réel $x \in \Interff{0}{1}$ :
+
+on a $\ln(1+x) \leqslant x$  d'après une propriété de la fonction $\ln$ (courbe de $\ln$ en-dessous de toutes ses tangentes et la droite d'équation $y=x+1$ est sa tangente au point d'abscisse $0$). On peut remplacer $x$ par $x^{n}$  : $0 \leqslant \ln(1+x^{n}) \leqslant x^{n}$. Par croissance de l'intégrale, on a :
+
+\pause \begin{align*}
+0 \leqslant \integralex{0}{1}{\ln(1+x^{n}) } & \leqslant \integralex{0}{1}{x^{n}} \\
+0 \leqslant \integralex{0}{1}{\ln(1+x^{n}) } & \leqslant \left[\frac{x^{n+1}}{n+1} \right]_{0}^{1} \\
+0 \leqslant \integralex{0}{1}{\ln(1+x^{n}) } & \leqslant \frac{1}{n+1}\\
+\end{align*}
+
+On a $\limitesuite{\frac{1}{n+1}}=0$ donc d'après le théorème des gendarmes, on a $\limitesuite{u_{n}}=0$.
+
+
+
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple  12 Question 3)}
+\pause \begin{align*}
+0 \leqslant \integralex{0}{1}{\ln(1+x^{n}) } & \leqslant \integralex{0}{1}{x^{n}} \\
+0 \leqslant \integralex{0}{1}{\ln(1+x^{n}) } & \leqslant \left[\frac{x^{n+1}}{n+1} \right]_{0}^{1} \\
+0 \leqslant \integralex{0}{1}{\ln(1+x^{n}) } & \leqslant \frac{1}{n+1}\\
+0 \leqslant u_{n} & \leqslant \frac{1}{n+1}\\
+\end{align*}
+
+On a $\limitesuite{\frac{1}{n+1}}=0$ donc d'après le théorème des gendarmes, on a $\limitesuite{u_{n}}=0$.
+
+
+
+
+\end{frame}
+
+
+
+
+
+\begin{frame}
+\frametitle{Exemple  13 Partie 1}
+
+Soit $f$ définie sur $\Interfo{0}{+\infty}$ par $f(t)=\frac{1}{\sqrt{2\pi}}\text{e}^{-\frac{t^2}{2}}$.
+\begin{itemize}
+\item Démontrons que pour tout $t \in \Interfo{2}{+\infty}$ on a  
+ $0 \leqslant f(t) \leqslant \frac{1}{\sqrt{2\pi}}\text{e}^{-t}$.
+
+
+Pour tout  $t \in \Interfo{2}{+\infty}$ on a :
+\pause \begin{align*}
+2 &\leqslant t \\
+2t & \leqslant t^{2} \\
+-t & \geqslant -\frac{t^2}{2} \\
+\intertext{par croissance de la fonction exponentielle : }
+\text{e}^{-t}  &\geqslant \text{e}^{-\frac{t^2}{2}} \\
+\frac{1}{\sqrt{2\pi}}\text{e}^{-t}  &\geqslant \frac{1}{\sqrt{2\pi}}\text{e}^{-\frac{t^2}{2}}
+\end{align*}
+
+
+\end{itemize}
+
+\end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{Exemple  13 Partie 2}
+
+Soit $f$ définie sur $\Interfo{0}{+\infty}$ par $f(t)=\frac{1}{\sqrt{2\pi}}\text{e}^{-\frac{t^2}{2}}$.
+
+\pause \begin{itemize}
+\item  Pour tout entier $n \geqslant 2$ on a : 
+\pause \begin{align*}
+0 \leqslant  \frac{1}{\sqrt{2\pi}}\text{e}^{-\frac{t^2}{2}}   &\leqslant  \frac{1}{\sqrt{2\pi}}\text{e}^{-t} \\
+\intertext{donc par croissance de l'intégrale :}
+0 \leqslant \integralet{2}{n}{f(t)} & \leqslant \integralet{2}{n}{\frac{1}{\sqrt{2\pi}}\text{e}^{-t} } \\
+0 \leqslant \integralet{2}{n}{f(t)} & \leqslant \left[-\frac{1}{\sqrt{2\pi}}\text{e}^{-t}  \right]_{2}^{n} \\ 
+0 \leqslant \integralet{2}{n}{f(t)} & \leqslant \frac{1}{\sqrt{2\pi}}\text{e}^{-2}-  \frac{1}{\sqrt{2\pi}}\text{e}^{-n} \\
+0 \leqslant \integralet{2}{n}{f(t)} & \leqslant \frac{1}{\sqrt{2\pi}}\text{e}^{-2}
+\end{align*}
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple  13 Partie 3}
+
+Démontrons que la suite $\suite{u}=\Suite{\integralet{2}{n}{f(t)}}{n \geqslant 2}$ est croissante.
+
+Pour tout entier $n \geqslant 2$ : 
+
+\pause \begin{align*}
+\integralet{2}{n+1}{f(t)}  - \integralet{2}{n}{f(t)}  &= \integralet{2}{n+1}{f(t)}  + \integralet{n}{2}{f(t)} \\
+\integralet{2}{n+1}{f(t)}  - \integralet{2}{n}{f(t)}  &= \integralet{n}{2}{f(t)} +\integralet{2}{n+1}{f(t)}  \\
+\integralet{2}{n+1}{f(t)} -\integralet{2}{n}{f(t)}  &= \integralet{n}{n+1}{f(t)}
+\end{align*}
+Pour tout entier $n \geqslant 2$, on a $0 \leqslant f(t)$ sur $\Interff{n}{n+1}$, donc par croissance de l'intégrale :
+$
+0 \leqslant \integralet{n}{n+1}{f(t)}
+$
+
+Pour tout entier $n \geqslant 2$, on a donc $u_{n+1}-u_{n} \geqslant 0$ et donc la suite $\suite{u}$ est croissante. Comme elle est majorée par $\frac{1}{\sqrt{2\pi}}\text{e}^{-2}$, elle converge d'après le théorème de convergence monotone.
+\end{frame}
+%
+
+
+
+
+\begin{frame}
+\frametitle{Exemple  14}
+\label{exemple14}
+On considère les fonctions $f$ et $g$ définies sur l'intervalle [0~;~16] par
+
+\[f(x) = \ln(x + 1)\quad  \text{et}\quad g(x) = \ln(x + 1) + 1 - \cos(x).\]
+
+Dans un repère du plan \Oij, on note $\mathcal{C}_f$ et $\mathcal{C}_g$ les courbes représentatives des fonctions $f$ et $g$. Ces courbes sont données  ci-dessous.
+
+
+\begin{center}
+\includegraphics[scale=0.2]{images/exemple14.png}
+\end{center}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple  14}
+
+Pour tout  $x \in [0~;~16]$, on a $g(x)-f(x) =  1 - \cos(x)$.
+
+ Or $1-\cos(x) \geqslant 0$, donc $g(x)-f(x)\geqslant 0$.
+
+ De plus  $g(x)-f(x) = 0 \Leftrightarrow 1 = \cos(x) \Leftrightarrow x = k2\pi \text{ avec } k \in \Z$
+
+Sur l'intervalle $[0~;~16]$, on a donc $g(x)-f(x) = 0 \Leftrightarrow \begin{cases} x = 0 \\ x = 2 \pi \\ x = 4 \pi \end{cases}$.
+
+Le domaine hachuré sur le graphique est l'aire entre les courbes de $f$ et de $g$ sur $[0~;~16]$.
+
+Sachant que $g \geqslant f$, cette aire est égale à l'intégrale :
+\pause \begin{align*}
+\integralex{0}{4\pi}{g(x)-f(x)} &=\integralex{0}{4\pi}{1-\cos(x)}\\
+ \integralex{0}{4\pi}{g(x)-f(x)} &=\left[x+\sin(x)\right]_{0}^{4\pi} = 4\pi
+\end{align*}
+
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple  15 Partie 1}
+Pour $t>0$ la vitesse d'un mobile est $v(t)=\frac{1}{t^2}+\frac{1}{t}$ ( en $\text{m}.\text{s}^{-1}$).
+\begin{enumerate}
+\item La distance parcourue entre les instants $t=1$ et $t=\text{e}^2$ (en s) est égale à :
+
+\begin{align*}
+\integralet{1}{\text{e}^2}{v(t)} &= \integralet{1}{\text{e}^2}{\frac{1}{t^2}+\frac{1}{t}} \\
+\integralet{1}{\text{e}^2}{v(t)} &= \left[-\frac{1}{t}+\ln(t)\right]_{1}^{\text{e}^2} \\
+\integralet{1}{\text{e}^2}{v(t)} &= 2 -\text{e}^{-2}+1 \text{mètres}
+\end{align*}
+
+
+\item  La vitesse moyenne du mobile entre les instants $t=1$ et $t=\text{e}^2$ est est égale à :
+$
+\integralet{1}{\text{e}^2}{v(t)} = \frac{1}{\text{e}^2-1}\integralet{1}{\text{e}^2}{\frac{1}{t^2}+\frac{1}{t}}= \frac{3 -\text{e}^{-2}}{\text{e}^2-1} \text{mètres par seconde}$
+
+\end{enumerate}
+\end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{Exemple  16}
+\label{exemple16}
+
+\begin{enumerate}
+\item Valeur moyenne de la fonction  $g$ définie sur $\Interff{-1}{1}$ par \mbox{$g(x)=\text{e}^{-x}$}. 
+\begin{equation*}
+\frac{1}{2}\integralex{-1}{1}{g(x)} &= \frac{1}{2} \left[-\text{e}^{-x}\right]_{1}^{2}= \frac{1}{2}\left(\text{e}^{-1}- \text{e}^{-2}  \right)
+\end{equation*}
+\item  Soit $f$ une fonction continue sur un intervalle $\Interff{a}{b}$.
+On suppose que pour tout $x \in \Interff{a}{b}$ on a : $m \leqslant f(x) \leqslant M$ . Par croissance de l'intégrale :
+\begin{align*}
+m \integralex{a}{b}{1}  \leqslant \integralex{a}{b}{f(x)}  & \leqslant M \integralex{a}{b}{1}  \\
+m (b-a) \leqslant \integralex{a}{b}{f(x)}  & \leqslant M(b-a) \\
+ m \leqslant \frac{1}{b-a}\integralex{a}{b}{f(x)}  &\leqslant M
+\end{align*}
+\end{enumerate}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple  16 Partie 2 }
+\label{exemple16}
+Soit $f$ la fonction définie sur l'intervalle  $\text{I}=\Interff{-1}{1}$ par $f(x)=(x+1)\text{e}^{-x}+1$
+\begin{enumerate}
+\item  Pour tout réel $x$, on a $f'(x)=\text{e}^{-x} - \text{e}^{-x}(x+1)=-x\text{e}^{-x}$.
+
+$f'(x)$ est donc du signe de $-x$ sur $\Interff{-1}{1}$  donc positive sur $\Interff{-1}{0}$ puis négative sur $\Interff{0}{1}$, donc $f$ est croissante sur  $\Interff{-1}{0}$ puis décroissante sur $\Interff{0}{1}$.
+
+De plus, $f(-1)=1$ et $f(1)=2\text{e}^{-1}+1$, donc le minimum de $f$ sur $\Interff{0}{1}$ est $f(-1)$ et le maximum est $f(0)=2$.
+
+D'après la propriété démontrée à la question précédente, la valeur moyenne de $f$ sur $\Interff{-1}{1}$ est encadrée par $f(-1)$ et $f(0)$ :
+\begin{equation*}
+f(-1) \leqslant  \frac{1}{2} \integralex{-1}{1}{f(x)} \leqslant f(0)
+\end{equation*}
+\end{enumerate}
+\end{frame}
 
 
 \end{document}
