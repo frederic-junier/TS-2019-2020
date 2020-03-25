@@ -48,6 +48,7 @@ Documents pour ma  classe de terminale S
   - [Séance du 23-03-2020](ContinuitePedagogique/seance-23-03-2020.md)
   - [Séance du 24-03-2020](ContinuitePedagogique/seance-24-03-2020.md)
   - [Séance du 25-03-2020](ContinuitePedagogique/seance-25-03-2020.md)
+  - [Séance du 26-03-2020](ContinuitePedagogique/seance-26-03-2020.md)
 
 
  
