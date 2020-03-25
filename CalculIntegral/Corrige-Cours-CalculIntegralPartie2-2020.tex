@@ -1037,7 +1037,7 @@ Calculer les intégrales suivantes :
 				\item $\int_{-4}^{-2}(3x-1)^6 \dx = \left[\frac{1}{3}\times \frac{1}{7}(3x-1)^{7}\right]_{-4}^{-2}=\frac{1}{21}\left(-7^{7}+13^{7} \right)$ ;
 				\item $\int_{0}^{x}\sin^2(t) \ \dt$. Il faut linéariser $\sin^{2}(t)$ avec les formules de duplication du sinus (voir chapitre sur les complexes Partie 2) : $\sin^{2}(t)=\frac{1-\cos(2t)}{2}$ donc :
 				
-				$\int_{0}^{x}\sin^2(t) \ \dt = \left[\frac{1-\cos(2t)}{2}\right]_{0}^{x}= \frac{1-\cos(2x)}{2}-0$
+				$\int_{0}^{x}\sin^2(t) \ \dt = \int_{0}^{x}\frac{1-\cos(2t)}{2}\ \dt  = \left[\frac{t-0,5\sin(2t)}{2}\right]_{0}^{x}= \frac{x-0,5\sin(2x)}{2}-0$
 				
 		
 			\end{enumerate}
@@ -1548,7 +1548,7 @@ $
 \begin{enumerate}
 \item Valeur moyenne de la fonction  $g$ définie sur $\Interff{-1}{1}$ par \mbox{$g(x)=\text{e}^{-x}$}. 
 \begin{equation*}
-\frac{1}{2}\integralex{-1}{1}{g(x)} &= \frac{1}{2} \left[-\text{e}^{-x}\right]_{1}^{2}= \frac{1}{2}\left(\text{e}^{-1}- \text{e}^{-2}  \right)
+\frac{1}{2}\integralex{-1}{1}{g(x)} = \frac{1}{2} \left[-\text{e}^{-x}\right]_{1}^{2}= \frac{1}{2}\left(\text{e}^{-1}- \text{e}^{-2}  \right)
 \end{equation*}
 \item  Soit $f$ une fonction continue sur un intervalle $\Interff{a}{b}$.
 On suppose que pour tout $x \in \Interff{a}{b}$ on a : $m \leqslant f(x) \leqslant M$ . Par croissance de l'intégrale :
