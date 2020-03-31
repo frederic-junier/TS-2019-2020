@@ -1222,8 +1222,15 @@ Notons que par symétrie par rapport à $0$, $\text{P}\left(  X  > -2  \right)= 
 Soit  $X $une variable aléatoire suivant la loi normale centrée réduite la loi $\mathcal{N}\left(0 \, ; \, 1\right)$.
 
 
-$\text{P}_{X>0} \left( X <2\right)$   se calcule avec la commande \texttt{normalFrép(-1.5,0,0,1)}$\approx  0,4331$
+$\text{P}_{X>0} \left( X <2\right)$ est une probabilité conditionnelle égale à :
 
+\begin{equation*}
+\text{P}_{X>0} \left( X <2\right)=\frac{\text{P}\left(0 <  X <2\right)}{\text{P}\left( X >0\right)}=\frac{\text{P}\left(0< X <2\right)}{0,5}
+\end{equation*}
+
+De plus, on a $\text{P}\left(0< X <2\right)=\text{P}\left( X <2\right)-\text{P}\left( X <0\right)\approx 0,9772 - 0,5 = 0,4772$
+
+Donc on a : $\text{P}_{X>0} \left( X <2\right)\approx 2 \times 0,4772 = 0,9544$
 
 \end{frame}
 

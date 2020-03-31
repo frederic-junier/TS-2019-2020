@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  31 MAR 2020 23:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  1 APR 2020 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1755,14 +1755,14 @@ Package pdftex.def Info: images/exemple8-fig5.png  used on input line 1216.
 <images/exemple9-fig1.png, id=404, 321.2pt x 240.9pt>
 File: images/exemple9-fig1.png Graphic file (type png)
 <use images/exemple9-fig1.png>
-Package pdftex.def Info: images/exemple9-fig1.png  used on input line 1250.
+Package pdftex.def Info: images/exemple9-fig1.png  used on input line 1257.
 (pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
 [64
 
  <./images/exemple9-fig1.png>]
 File: images/exemple9-fig1.png Graphic file (type png)
 <use images/exemple9-fig1.png>
-Package pdftex.def Info: images/exemple9-fig1.png  used on input line 1250.
+Package pdftex.def Info: images/exemple9-fig1.png  used on input line 1257.
 (pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
 [65
 
@@ -1770,14 +1770,14 @@ Package pdftex.def Info: images/exemple9-fig1.png  used on input line 1250.
 <images/exemple9-fig2.png, id=416, 321.2pt x 240.9pt>
 File: images/exemple9-fig2.png Graphic file (type png)
 <use images/exemple9-fig2.png>
-Package pdftex.def Info: images/exemple9-fig2.png  used on input line 1271.
+Package pdftex.def Info: images/exemple9-fig2.png  used on input line 1278.
 (pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
 [66
 
  <./images/exemple9-fig2.png>]
 File: images/exemple9-fig2.png Graphic file (type png)
 <use images/exemple9-fig2.png>
-Package pdftex.def Info: images/exemple9-fig2.png  used on input line 1271.
+Package pdftex.def Info: images/exemple9-fig2.png  used on input line 1278.
 (pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
 [67
 
@@ -1785,14 +1785,14 @@ Package pdftex.def Info: images/exemple9-fig2.png  used on input line 1271.
 <images/exemple9-fig3.png, id=429, 321.2pt x 240.9pt>
 File: images/exemple9-fig3.png Graphic file (type png)
 <use images/exemple9-fig3.png>
-Package pdftex.def Info: images/exemple9-fig3.png  used on input line 1293.
+Package pdftex.def Info: images/exemple9-fig3.png  used on input line 1300.
 (pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
 [68
 
  <./images/exemple9-fig3.png>]
 File: images/exemple9-fig3.png Graphic file (type png)
 <use images/exemple9-fig3.png>
-Package pdftex.def Info: images/exemple9-fig3.png  used on input line 1293.
+Package pdftex.def Info: images/exemple9-fig3.png  used on input line 1300.
 (pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
 [69
 
@@ -1800,10 +1800,10 @@ Package pdftex.def Info: images/exemple9-fig3.png  used on input line 1293.
 <images/exemple9-fig4.png, id=442, 321.2pt x 240.9pt>
 File: images/exemple9-fig4.png Graphic file (type png)
 <use images/exemple9-fig4.png>
-Package pdftex.def Info: images/exemple9-fig4.png  used on input line 1320.
+Package pdftex.def Info: images/exemple9-fig4.png  used on input line 1327.
 (pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
 
-Overfull \vbox (13.25092pt too high) detected at line 1320
+Overfull \vbox (13.25092pt too high) detected at line 1327
  []
 
 [70
@@ -1811,10 +1811,10 @@ Overfull \vbox (13.25092pt too high) detected at line 1320
  <./images/exemple9-fig4.png>]
 File: images/exemple9-fig4.png Graphic file (type png)
 <use images/exemple9-fig4.png>
-Package pdftex.def Info: images/exemple9-fig4.png  used on input line 1320.
+Package pdftex.def Info: images/exemple9-fig4.png  used on input line 1327.
 (pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
 
-Overfull \vbox (13.25092pt too high) detected at line 1320
+Overfull \vbox (13.25092pt too high) detected at line 1327
  []
 
 [71
@@ -1838,12 +1838,12 @@ Overfull \vbox (13.25092pt too high) detected at line 1320
 ] [80
 
 ]
-Overfull \hbox (16.30629pt too wide) detected at line 1555
+Overfull \hbox (16.30629pt too wide) detected at line 1562
 []
  []
 
 
-Overfull \vbox (6.9125pt too high) detected at line 1555
+Overfull \vbox (6.9125pt too high) detected at line 1562
  []
 
 [81
@@ -1860,11 +1860,11 @@ Overfull \vbox (6.9125pt too high) detected at line 1555
 \tf@snm=\write8
 \openout8 = `CorrigeExemplesCoursLoisDensite2019.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1576.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1576.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1583.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1583.
 (./CorrigeExemplesCoursLoisDensite2019.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1576.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1576.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1583.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1583.
 
 Package rerunfilecheck Info: File `CorrigeExemplesCoursLoisDensite2019.out' has
  not changed.
@@ -1876,7 +1876,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  26995 strings out of 492982
  512717 string characters out of 6134895
- 613291 words of memory out of 5000000
+ 613288 words of memory out of 5000000
  29727 multiletter control sequences out of 15000+600000
  72622 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1903,7 +1903,7 @@ f/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on CorrigeExemplesCoursLoisDensite2019.pdf (82 pages, 443379 byt
+Output written on CorrigeExemplesCoursLoisDensite2019.pdf (82 pages, 443740 byt
 es).
 PDF statistics:
  616 PDF objects out of 1000 (max. 8388607)
