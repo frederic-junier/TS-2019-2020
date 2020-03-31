@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  31 MAR 2020 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.13)  31 MAR 2020 23:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1235,6 +1235,9 @@ LaTeX Warning: Label `exemple3' multiply defined.
 
 LaTeX Warning: Label `exemple7' multiply defined.
 
+
+LaTeX Warning: Label `exemple7' multiply defined.
+
 )
 \openout1 = `CorrigeExemplesCoursLoisDensite2019.aux'.
 
@@ -1584,295 +1587,70 @@ l.818 \end{frame}
 ] [26
 
 ]
-! Argument of \frame has an extra }.
-<inserted text> 
-                \par 
-l.843 ...nforme est $0,75$; on a donc $P\left ( M}
-                                                   \in \cd 900~,~\np{1200}\c...
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-\par \frametitle {Exemple 4 : Partie 1} \label {exemple4} \par Un d√©\ETC.
-! Paragraph ended before \frame was complete.
-<to be read again> 
-                   \par 
-l.843 ...nforme est $0,75$; on a donc $P\left ( M}
-                                                   \in \cd 900~,~\np{1200}\c...
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-<recently read> }
-                 
-l.843 ...nforme est $0,75$; on a donc $P\left ( M}
-                                                   \in \cd 900~,~\np{1200}\c...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.843 ...me est $0,75$; on a donc $P\left ( M} \in
-                                                   \cd 900~,~\np{1200}\cg \r...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Undefined control sequence.
-l.843 ...st $0,75$; on a donc $P\left ( M} \in \cd
-                                                   900~,~\np{1200}\cg \right...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.843 ...c $P\left ( M} \in \cd 900~,~\np{1200}\cg
-                                                   \right ) = 0,75$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Extra \right.
-l.843 ... ( M} \in \cd 900~,~\np{1200}\cg \right )
-                                                   = 0,75$.
-I'm ignoring a \right that had no matching \left.
-
-! Undefined control sequence.
-<argument> .../enumerate \beameritemnestingprefix 
-                                                  body end
-l.851 \end{itemize}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{frame} on input line 826 ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.851 \end{itemize}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra }, or forgotten \endgroup.
-\endframe ->\egroup 
-                    \begingroup \def \@currenvir {frame}
-l.853 \end{frame}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \vbox (27.17842pt too high) detected at line 853
+ []
 
 [27
 
-] [28] [29
+]
+Overfull \vbox (27.17842pt too high) detected at line 853
+ []
+
+[28
+
+] [29
+
+] [30
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 891.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 890.
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [30
-
-] [31
+) [31
 
 ] [32
 
 ] [33
 
-]
-! Missing delimiter (. inserted).
-<to be read again> 
-                   \let 
-l.943 \end{frame}
-                 
-I was expecting to see something like `(' or `\{' or
-`\}' here. If you typed, e.g., `{' instead of `\{', you
-should probably delete the `{' by typing `1' now, so that
-braces don't get unbalanced. Otherwise just proceed.
-Acceptable delimiters are characters whose \delcode is
-nonnegative, or you can use `\delimiter <delimiter code>'.
+] [34
 
-[34
+] [35
 
-]
-! Undefined control sequence.
-<argument> \red 
-                \lambda >0
-l.964 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+] [36
 
-! Undefined control sequence.
-\beamer@doifinframe ...lambda t})=1-0=1$ : \[\red 
-                                                  \lim \limits _{t\to +\inft...
-l.964 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+] [37
 
-[35
-
-]
-! Undefined control sequence.
-<argument> \red 
-                \lambda >0
-l.964 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@doifinframe ...lambda t})=1-0=1$ : \[\red 
-                                                  \lim \limits _{t\to +\inft...
-l.964 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[36
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...2}{7} \end {array}$ \[\red 
-                                                  \text {Une valeur approch√...
-l.991 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[37
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...2}{7} \end {array}$ \[\red 
-                                                  \text {Une valeur approch√...
-l.991 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[38
+] [38
 
 ] [39
 
 ] [40
 
-]
-! Undefined control sequence.
-\beamer@doifinframe ...{P}(T\geqslant 5)\] \[\red 
-                                                  \text {La probabilit√© che...
-l.1038 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+] [41
 
-[41
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...{P}(T\geqslant 5)\] \[\red 
-                                                  \text {La probabilit√© che...
-l.1038 \end{frame}
-                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[42
+] [42
 
 ] [43
 
 ] [44
 
-]
-Overfull \vbox (37.81737pt too high) detected at line 1087
- []
+] [45
 
-[45
+] [46
 
-]
-Overfull \vbox (37.81737pt too high) detected at line 1087
- []
+] [47
 
-[46
+] [48
 
-]
-Overfull \vbox (37.81737pt too high) detected at line 1087
- []
+] [49
 
-[47
-
-]
-Overfull \vbox (37.81737pt too high) detected at line 1087
- []
-
-[48
-
-]
-Overfull \vbox (37.81737pt too high) detected at line 1087
- []
-
-[49
-
-]
-Overfull \vbox (37.81737pt too high) detected at line 1087
- []
-
-[50
+] [50
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{exemple7}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1110 \end{frame}
+l.1107 \end{frame}
                    [51
 
 ] [52
@@ -1881,47 +1659,196 @@ l.1110 \end{frame}
 
 ] [54
 
-] [55
+]pdfTeX warning (ext4): destination with the same identifier (name{exemple7}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1128 \end{frame}
+                  
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \approx 
+l.1128 \end{frame}
+                  
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+[55
 
 ]
-! Undefined control sequence.
-\beamer@doifinframe ...2}{7} \end {array}$ \[\red 
-                                                  \text {Une valeur approch√...
-l.1155 \end{frame}
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \approx 
+l.1128 \end{frame}
                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
 
 [56
 
-] [57
+]
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \approx 
+l.1128 \end{frame}
+                  
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
 
-] [58
-
-] [59
-
-] [60
-
-] [61
-
-] [62
-
-] [63
-
-] [64
-
-] [65
+[57
 
 ]
-Overfull \vbox (17.4125pt too high) detected at line 1394
- []
+<images/exemple8-fig1.png, id=361, 321.2pt x 240.9pt>
+File: images/exemple8-fig1.png Graphic file (type png)
+<use images/exemple8-fig1.png>
+Package pdftex.def Info: images/exemple8-fig1.png  used on input line 1142.
+(pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
+[58
 
+ <./images/exemple8-fig1.png>]
+<images/exemple8-fig2.png, id=370, 321.2pt x 240.9pt>
+File: images/exemple8-fig2.png Graphic file (type png)
+<use images/exemple8-fig2.png>
+Package pdftex.def Info: images/exemple8-fig2.png  used on input line 1159.
+(pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
+[59
+
+ <./images/exemple8-fig2.png>]
+<images/exemple8-fig3.png, id=377, 321.2pt x 240.9pt>
+File: images/exemple8-fig3.png Graphic file (type png)
+<use images/exemple8-fig3.png>
+Package pdftex.def Info: images/exemple8-fig3.png  used on input line 1179.
+(pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
+[60
+
+ <./images/exemple8-fig3.png>]
+<images/exemple8-fig4.png, id=384, 321.2pt x 240.9pt>
+File: images/exemple8-fig4.png Graphic file (type png)
+<use images/exemple8-fig4.png>
+Package pdftex.def Info: images/exemple8-fig4.png  used on input line 1196.
+(pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
+[61
+
+ <./images/exemple8-fig4.png>]
+<images/exemple8-fig5.png, id=392, 321.2pt x 240.9pt>
+File: images/exemple8-fig5.png Graphic file (type png)
+<use images/exemple8-fig5.png>
+Package pdftex.def Info: images/exemple8-fig5.png  used on input line 1216.
+(pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
+[62
+
+ <./images/exemple8-fig5.png>] [63
+
+]
+<images/exemple9-fig1.png, id=404, 321.2pt x 240.9pt>
+File: images/exemple9-fig1.png Graphic file (type png)
+<use images/exemple9-fig1.png>
+Package pdftex.def Info: images/exemple9-fig1.png  used on input line 1250.
+(pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
+[64
+
+ <./images/exemple9-fig1.png>]
+File: images/exemple9-fig1.png Graphic file (type png)
+<use images/exemple9-fig1.png>
+Package pdftex.def Info: images/exemple9-fig1.png  used on input line 1250.
+(pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
+[65
+
+]
+<images/exemple9-fig2.png, id=416, 321.2pt x 240.9pt>
+File: images/exemple9-fig2.png Graphic file (type png)
+<use images/exemple9-fig2.png>
+Package pdftex.def Info: images/exemple9-fig2.png  used on input line 1271.
+(pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
 [66
 
-] [67
+ <./images/exemple9-fig2.png>]
+File: images/exemple9-fig2.png Graphic file (type png)
+<use images/exemple9-fig2.png>
+Package pdftex.def Info: images/exemple9-fig2.png  used on input line 1271.
+(pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
+[67
+
+]
+<images/exemple9-fig3.png, id=429, 321.2pt x 240.9pt>
+File: images/exemple9-fig3.png Graphic file (type png)
+<use images/exemple9-fig3.png>
+Package pdftex.def Info: images/exemple9-fig3.png  used on input line 1293.
+(pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
+[68
+
+ <./images/exemple9-fig3.png>]
+File: images/exemple9-fig3.png Graphic file (type png)
+<use images/exemple9-fig3.png>
+Package pdftex.def Info: images/exemple9-fig3.png  used on input line 1293.
+(pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
+[69
+
+]
+<images/exemple9-fig4.png, id=442, 321.2pt x 240.9pt>
+File: images/exemple9-fig4.png Graphic file (type png)
+<use images/exemple9-fig4.png>
+Package pdftex.def Info: images/exemple9-fig4.png  used on input line 1320.
+(pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
+
+Overfull \vbox (13.25092pt too high) detected at line 1320
+ []
+
+[70
+
+ <./images/exemple9-fig4.png>]
+File: images/exemple9-fig4.png Graphic file (type png)
+<use images/exemple9-fig4.png>
+Package pdftex.def Info: images/exemple9-fig4.png  used on input line 1320.
+(pdftex.def)             Requested size: 96.36073pt x 72.27055pt.
+
+Overfull \vbox (13.25092pt too high) detected at line 1320
+ []
+
+[71
+
+] [72
+
+] [73
+
+] [74
+
+] [75
+
+] [76
+
+] [77
+
+] [78
+
+] [79
+
+] [80
+
+]
+Overfull \hbox (16.30629pt too wide) detected at line 1555
+[]
+ []
+
+
+Overfull \vbox (6.9125pt too high) detected at line 1555
+ []
+
+[81
+
+] [82
 
 ]
 \tf@nav=\write6
@@ -1933,24 +1860,11 @@ Overfull \vbox (17.4125pt too high) detected at line 1394
 \tf@snm=\write8
 \openout8 = `CorrigeExemplesCoursLoisDensite2019.snm'.
 
-
-! LaTeX Error: \begin{frame} on input line 826 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1415 \end{document}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1415.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1415.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1576.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1576.
 (./CorrigeExemplesCoursLoisDensite2019.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1415.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1415.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1576.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1576.
 
 Package rerunfilecheck Info: File `CorrigeExemplesCoursLoisDensite2019.out' has
  not changed.
@@ -1958,33 +1872,17 @@ Package rerunfilecheck Info: File `CorrigeExemplesCoursLoisDensite2019.out' has
 
 LaTeX Warning: There were multiply-defined labels.
 
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 826 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 26896 strings out of 492982
- 511047 string characters out of 6134895
- 612291 words of memory out of 5000000
- 29667 multiletter control sequences out of 15000+600000
+ 26995 strings out of 492982
+ 512717 string characters out of 6134895
+ 613291 words of memory out of 5000000
+ 29727 multiletter control sequences out of 15000+600000
  72622 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,59p,802b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{exemple10} has been referenced but 
-does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{exemple9} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{exemple8} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{exemple5} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{exemple4} has been referenced but does not exist, r
-eplaced by a fixed one
+ 56i,19n,59p,802b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{exemple5} has been referenced but does not exist,
+ replaced by a fixed one
 
 pdfTeX warning (dest): name{exemple2} has been referenced but does not exist, r
 eplaced by a fixed one
@@ -2005,11 +1903,11 @@ f/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on CorrigeExemplesCoursLoisDensite2019.pdf (67 pages, 365066 byt
+Output written on CorrigeExemplesCoursLoisDensite2019.pdf (82 pages, 443379 byt
 es).
 PDF statistics:
- 514 PDF objects out of 1000 (max. 8388607)
- 414 compressed objects within 5 object streams
- 149 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 616 PDF objects out of 1000 (max. 8388607)
+ 483 compressed objects within 5 object streams
+ 179 named destinations out of 1000 (max. 500000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

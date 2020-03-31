@@ -840,7 +840,7 @@ qui suit une loi uniforme sur l'intervalle $[850~;~x]$, où $x$ est un nombre r�
 
 \pause \item Le détaillant constate que 75\,\% des melons du maraîcher sont conformes. %Déterminer $x$.
 
-Autrement dit, la probabilité qu'un melon du maraîcher soit conforme est $0,75$; on a donc $P\left ( M} \in \cd 900~,~\np{1200}\cg \right ) = 0,75$.
+Autrement dit, la probabilité qu'un melon du maraîcher soit conforme est $0,75$; on a donc $P\left ( M \in [ 900~,~\np{1200}] \right ) = 0,75$.
 
 Comme la variable aléatoire $M$ suit une loi uniforme sur $[ 850~,~x ]$, on a\\
 $P\left ( M \in [ 900~,~\np{1200}]  \right ) = \dfrac{\np{1200}-900}{x-850}$.
@@ -851,7 +851,6 @@ $300 = 0,75x - 637,5$ ou à $937,5 = 0,75x$ c'est-à-dire $x=\np{1250}$.
 \end{itemize}
 
 \end{frame}
-
 
 
 \begin{frame}
@@ -932,9 +931,11 @@ Démontrer que $\lim\limits_{t \to + \infty} \proba{T \leqslant t}=1$.
 
 $\begin{array}[t]{lcl}
 \text{P}(T\leqslant t)&=&\int\limits_{0}^{t}f(x)\text{d}x=\int\limits_{0}^{t}\lambda \text{e}^{-\lambda x}\text{d}x\\
-&=&\left[ -\text{e}^{-\lambda x}\right]_{0}^{t}=\left( -\text{e}^{-\lambda t}\right)-\left( -\text{e}^{-\lambda \times 0}\right\\ 
+&=&\left[ -\text{e}^{-\lambda x}\right]_{0}^{t}=\left( -\text{e}^{-\lambda t}\right)-\left( -\text{e}^{-\lambda \times 0}\right]\\ 
 &=&\left( -\text{e}^{-\lambda t}\right)-(-1) =1-\text{e}^{-\lambda t}   
-\end{array}$		
+\end{array}$	
+
+	
 \[ \forall t\in[0,+\infty[\quad \text{P}(T\leqslant t)=1-\text{e}^{-\lambda t}\]
 
 \end{itemize}
@@ -952,11 +953,11 @@ $\begin{array}[t]{lcl}
 \begin{itemize}
 \pause \item Soit $t\in[0,+\infty[$ :
 
-De $\sys{l}{\lim\limits_{t\to +\infty}-\lambda t\overset{\red \lambda >0}{=}-\infty\\ \text{et}\\ \lim\limits_{X\to -\infty}\text{e}^X=0}$on déduit, par composition : 
+De $\sys{l}{\lim\limits_{t\to +\infty}-\lambda t\overset{\lambda >0}{=}-\infty\\ \text{et}\\ \lim\limits_{X\to -\infty}\text{e}^X=0}$on déduit, par composition : 
 $\lim\limits_{t\to +\infty}\text{e}^{-\lambda t}=0$.
 
 On a ensuite, par somme : $\lim\limits_{t\to +\infty}(1-\text{e}^{-\lambda t})=1-0=1$ :	
-\[\red \lim\limits_{t\to +\infty}\text{P}(T\leqslant t)=1\]	
+\[\lim\limits_{t\to +\infty}\text{P}(T\leqslant t)=1\]	
 
 \end{itemize}
 
@@ -983,7 +984,7 @@ $\begin{array}[t]{lcl}
 &&\\
 &\iff&\lambda=\dfrac{\ln 2}{7}
 \end{array}$
-\[\red \text{Une valeur approchée de }\lambda\text{, à  }10^{-3}\text{ près, est } 0,099\]
+\[\text{Une valeur approchée de }\lambda\text{, à  }10^{-3}\text{ près, est } 0,099\]
 
 \end{itemize}
 
@@ -1015,6 +1016,7 @@ La probabilité que ce composant fonctionne au moins 5 ans est environ  0,61.
 
 
 
+
 \begin{frame}
 
 
@@ -1029,7 +1031,7 @@ Il s'agit de calculer
 	\pause	\item
 	
 La loi exponentielle étant une loi de durée de vie sans vieillissement, on a 
-\[\text{P}_{(T\geqslant 2)}(T\geqslant 7)=\text{P}(T\geqslant 5)\]	\[\red\text{La probabilité cherchée est environ } 0,61\]
+\[\text{P}_{(T\geqslant 2)}(T\geqslant 7)=\text{P}(T\geqslant 5)\]	\[\text{La probabilité cherchée est environ } 0,61\]
 
 
 \end{itemize}
@@ -1071,15 +1073,13 @@ Soit  $X $une variable aléatoire suivant la loi normale centrée réduite la lo
 
 \begin{itemize}
 \item $\text{P}\left( X > 1 \right) = ?$
-\pause \item 
+\pause \item $\text{P}\left( X > 1 \right) = 1 -\text{P}\left( X \leqslant 1 \right)\approx 1 - 0,841 = 0,159$
 \item $\text{P}\left( X \leqslant -1 \right)=?$
-\pause \item
+\pause \item $\text{P}\left( X \leqslant -1 \right)=\text{P}\left( X > 1 \right)\approx 0,159$ par symétrie de la loi $\mathcal{N}\left(0 \, ; \, 1\right)$ par rapport à 0. 
 \item $\text{P}\left( X \geqslant -1 \right)=?$
-\pause \item
+\pause \item Par complémentaire :  $\text{P}\left( X \geqslant -1 \right)=1-\text{P}\left( X \leqslant -1 \right)=0,841$ ou par symétrie : $\text{P}\left( X \geqslant -1 \right)=\text{P}\left( X \leqslant 1 \right)$.
 \item $\text{P}\left( X = 1 \right)=?$
-\pause \item
-\item $\text{P}\left( -1<X<1 \right)=?$
-\pause \item
+\pause \item  $\text{P}\left( X = 1 \right)=0$ car $X$ suit une loi à densité
 
 \end{itemize}
 
@@ -1095,68 +1095,229 @@ Soit  $X $une variable aléatoire suivant la loi normale centrée réduite la lo
 Soit  $X $une variable aléatoire suivant la loi normale centrée réduite la loi $\mathcal{N}\left(0 \, ; \, 1\right)$. On donne $\text{P}\left( X \leqslant 1 \right) \approx 0,841$  et  $\text{P}\left( X \leqslant -2 \right) \approx 0,023$ à 0,001 près. En déduire une valeur approchée à à 0,001 près des probabilités suivantes :
 
 \begin{itemize}
-
+\item $\text{P}\left( -1<X<1 \right)=?$
+\pause \item $\text{P}\left( -1<X<1 \right)=1-2\text{P}\left( X<-1 \right)\approx 1 - 2 \times 0,159 = 0,682$ par symétrie. On a aussi $\text{P}\left( -1<X<1 \right)=2 \text{P}\left(X<1 \right)-1\approx 0,682$.
 \item $\text{P}\left( -2<X<1 \right)=?$
-\pause \item
+\pause \item $\text{P}\left( -2<X<1 \right)=\text{P}\left(X<1 \right)-\text{P}\left(X<-2 \right)\approx 0,841-0,023 = 0,818$
 \item $\text{P}\left( -2<X \right)=?$
-\pause \item
-\item $\text{P}\left( X \leqslant 2 \right)=?$
-\pause \item
-\item $\text{P}\left(-1 < X \leqslant 2 \right)=?$
-\pause \item
+\pause \item $\text{P}\left( -2<X \right)=1-\text{P}\left(X<-2 \right)\approx 1-0,023 = 0,977$
 \end{itemize}
 
+
+\end{frame}
+
+
+
+
+
+
+\begin{frame}
+\frametitle{Exemple 7 Partie 3}
+\label{exemple7}
+
+Soit  $X $une variable aléatoire suivant la loi normale centrée réduite la loi $\mathcal{N}\left(0 \, ; \, 1\right)$. On donne $\text{P}\left( X \leqslant 1 \right) \approx 0,841$  et  $\text{P}\left( X \leqslant -2 \right) \approx 0,023$ à 0,001 près. En déduire une valeur approchée à à 0,001 près des probabilités suivantes :
+
+\begin{itemize}
+\item $\text{P}\left( X \leqslant 2 \right)=?$
+\pause \item $\text{P}\left( X \leqslant 2 \right)=1- \text{P}\left(X>2 \right)=1- \text{P}\left(X\leqslant -2 \right \approx 0,977$ par  symétrie.
+\item $\text{P}\left(-1 < X \leqslant 2 \right)=?$
+\pause \item $\text{P}\left(-1 < X \leqslant 2 \right)=\text{P}\left( -2<X<1 \right)\approx 0,818$
+\end{itemize}
+
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple 8 Question 1)}
+\label{exemple8}
+
+Soit  $X $une variable aléatoire suivant la loi normale centrée réduite la loi $\mathcal{N}\left(0 \, ; \, 1\right)$.
+
+
+$\text{P}\left( -1,5<X<0 \right)$  se calcule avec la commande \texttt{normalFrép(-1.5,0,0,1)}$\approx  0,4332$
+
+\begin{center}
+\includegraphics[scale=0.3]{images/exemple8-fig1.png}
+\end{center}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Exemple 8 Question 2)}
+
+
+Soit  $X $une variable aléatoire suivant la loi normale centrée réduite la loi $\mathcal{N}\left(0 \, ; \, 1\right)$.
+
+
+$\text{P}\left( X = \text{1}  \right)=0$   car $X$ suit une loi à densité.
+
+
+\begin{center}
+\includegraphics[scale=0.3]{images/exemple8-fig2.png}
+\end{center}
+\end{frame}
+
+
+
+
+
+\begin{frame}
+\frametitle{Exemple 8 Question 3)}
+
+
+Soit  $X $une variable aléatoire suivant la loi normale centrée réduite la loi $\mathcal{N}\left(0 \, ; \, 1\right)$.
+
+
+ $\text{P}\left( -2<X<2 \right)$   se calcule avec la commande \texttt{normalFrép(-2,2,0,1)}$\approx  0,4331$
+
+
+\begin{center}
+\includegraphics[scale=0.3]{images/exemple8-fig3.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple 8 Question 4)}
+
+
+Soit  $X $une variable aléatoire suivant la loi normale centrée réduite la loi $\mathcal{N}\left(0 \, ; \, 1\right)$.
+
+
+ $\text{P}\left(  X  < 2  \right)=\text{P}\left(  X  \leqslant 2  \right)$  se calcule avec la commande \texttt{normalFrép($-10^{99}$,2,0,1)}$\approx  0,9772$. On remplace $-\infty$ par une valeur très petite comme $-10^{99}$.
+
+
+
+\begin{center}
+\includegraphics[scale=0.3]{images/exemple8-fig4.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple 8 Question 5)}
+
+
+Soit  $X $une variable aléatoire suivant la loi normale centrée réduite la loi $\mathcal{N}\left(0 \, ; \, 1\right)$.
+
+
+
+
+ $\text{P}\left(  X  > -2  \right)=\text{P}\left(  X  \geqslant -2  \right)$  se calcule avec la commande \texttt{normalFrép($-2$, $10^{99}$,0,1)}$\approx  0,9772$. On remplace $+\infty$ par une valeur très grande comme $10^{99}$.
+ 
+Notons que par symétrie par rapport à $0$, $\text{P}\left(  X  > -2  \right)= \text{P}\left(  X  < 2 \right)  $.
+
+
+\begin{center}
+\includegraphics[scale=0.3]{images/exemple8-fig5.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Exemple 8 Question 6)}
+
+
+Soit  $X $une variable aléatoire suivant la loi normale centrée réduite la loi $\mathcal{N}\left(0 \, ; \, 1\right)$.
+
+
+$\text{P}_{X>0} \left( X <2\right)$   se calcule avec la commande \texttt{normalFrép(-1.5,0,0,1)}$\approx  0,4331$
+
+
+\end{frame}
+
+
+
+
+\begin{frame}
+\frametitle{Exemple 9 Question 1)}
+\label{exemple9}
+Soit $X$ une variable aléatoire qui suit la loi normale centré réduite $\loinorm{0}{1}$.
+
+Déterminer le réel $a$ tel que  $\proba{X \leqslant a}=0,7$ 
+\begin{itemize}
+\pause \item 
+On inverse la fonction de répartition de la loi normale centrée réduite pour le quantile $0,7$. Avec une calculatrice TI par exemple : 
+
+ \texttt{a = invNormale(0.7, 0.1, GAUCHE)} $\approx 0,5244$
+
+\begin{center}
+\includegraphics[scale=0.3]{images/exemple9-fig1.png}
+\end{center}
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Exemple 9 Question 2)}
+
+Soit $X$ une variable aléatoire qui suit la loi normale centré réduite $\loinorm{0}{1}$.
+
+Déterminer le réel $b$ tel que  $\proba{X \geqslant b}=0,15$.
+\begin{itemize}
+\pause \item  De $\proba{X \geqslant b}=0,15$ on déduit par complémentaire que $\proba{X < b}=1-0,15=0,85$.
+
+On inverse la fonction de répartition de la loi normale centrée réduite pour le quantile $0,85$. Avec une calculatrice TI par exemple : 
+
+ \texttt{a = invNormale(0.85, 0.1, GAUCHE)} $\approx 1,0364$
+
+\begin{center}
+\includegraphics[scale=0.3]{images/exemple9-fig2.png}
+\end{center}
+\end{itemize}
 
 \end{frame}
 
 
 
 \begin{frame}
+\frametitle{Exemple 9 Question 3)}
 
+Soit $X$ une variable aléatoire qui suit la loi normale centré réduite $\loinorm{0}{1}$.
 
-\frametitle{Exemple 6 Partie 2}
-
-
+Déterminer le réel $c$ tel que   $\proba{ -c \leqslant X \leqslant c}=0,3$. 
 \begin{itemize}
-\item L'hypothèse s'écrit : $1-\text{e}^{-7\lambda}=0,5\quad (1)$
+\pause \item  Par symétrie, on a $2\proba{X \leqslant c}-1=\proba{ -c \leqslant X \leqslant c}=0,3$ donc $\proba{X \leqslant c}=\frac{1+0,3}{2}=0,65$.
 
-$\begin{array}[t]{lcl}
-(1)&\iff&\text{e}^{-7\lambda}=0,5\\
-&&\\
-&\iff&-7\lambda=\ln \dfrac{1}{2} \\
-&&\\
-&\iff&-7\lambda=-\ln 2 \\
-&&\\
-&\iff&\lambda=\dfrac{\ln 2}{7}
-\end{array}$
-\[\red \text{Une valeur approchée de }\lambda\text{, à  }10^{-3}\text{ près, est } 0,099\]
-%\item La question est de déterminer P$(T\geqslant 5)$.
-%
-%Puisque P$(T\leqslant 5)=1-\text{e}^{-0,099\times 5}$, alors 
-%\[\text{P} (T\geqslant 5)=\text{P}(T>5)=1-\text{P}(T\leqslant 5)=1-(1-\text{e}^{-0,099\times 5})=\text{e}^{-5\times 0,099}=\text{e}^{-0,495}\]		
-%\[\red\text{La probabilité que ce composant fonctionne au moins 5 ans est environ } 0,61\]
-%		\item
-%Il s'agit de calculer 
-%\[\text{P}_{(T\geqslant 2)}(T\geqslant 7)\]		
-%La loi exponentielle étant une loi de durée de vie sans vieillissement, on a 
-%\[\text{P}_{(T\geqslant 2)}(T\geqslant 7)=\text{P}(T\geqslant 5)\]	\[\red\text{La probabilité cherchée est environ } 0,61\]
-%		\item	
-%E$(T)=\dfrac{1}{\lambda}$ :
-%
-%\begin{tabular}{p{14cm}}
-%\red
-%Une valeur approchée de l'espérance de T est environ 10,10 :	
-%la durée de vie moyenne d'un composant est d'environ 10 ans
-%\end{tabular}
+On inverse la fonction de répartition de la loi normale centrée réduite pour le quantile $0,65$. Avec une calculatrice TI par exemple : 
 
+ \texttt{a = invNormale(0.65, 0.1, GAUCHE)} $\approx 0,3853$
+
+\begin{center}
+\includegraphics[scale=0.3]{images/exemple9-fig3.png}
+\end{center}
 \end{itemize}
-
 
 \end{frame}
 
+\begin{frame}
+\frametitle{Exemple 10}
+\label{exemple10}
+
+Soit $X$ une variable aléatoire qui suit la loi normale centré réduite $\loinorm{0}{1}$.
+
+Avec la calculatrice, déterminer une valeur approchée à 0,01 près du réel $u_{0,2}$ tel que  tels que $\proba{ -u_{0,2} \leqslant X \leqslant u_{0,2}}=0,8$.
+
+\begin{itemize}
+
+\pause \item Par symétrie, on a $\proba{ -u_{0,2} \leqslant X \leqslant u_{0,2}} = 2\proba{X \leqslant u_{0,2}}-1$ donc $\proba{X \leqslant u_{0,2}}=\frac{1+0,8}{2}=0,9$.
+
+On inverse la fonction de répartition de la loi normale centrée réduite pour le quantile $0,9$. Avec une calculatrice TI par exemple : 
+
+ \texttt{a = invNormale(0.9, 0.1, GAUCHE)} $\approx 1,2816$
+
+\begin{center}
+\includegraphics[scale=0.3]{images/exemple9-fig4.png}
+\end{center}
+\end{itemize}
 
 
 
+\
+
+\end{frame}
 
 \begin{frame}
 
