@@ -544,7 +544,7 @@ ymax/.store in=\ymax, ymax/.default=3, ymax=3,
 \end{itemize}
 
 \end{frame}
-
+ 
 
 
 \begin{frame}
@@ -555,10 +555,10 @@ ymax/.store in=\ymax, ymax/.default=3, ymax=3,
 Sofia utilise le bus pour se rendre au cinéma.  La durée du trajet entre son domicile et le cinéma (exprimée en minutes) est une variable aléatoire $T$ qui prend des valeurs choisies aléatoirement dans l'intervalle $[12~;~15]$. On dit que $T$ suit la loi uniforme sur l'intervalle $[12~;~15]$. La probabilité que la durée de trajet appartienne à un intervalle $\Interff{a}{b}$ inclus dans $[12~;~15]$ est alors proportionnelle à la longueur de cet intervalle.
 
 \begin{itemize}
-\item L'événement $\left\{12 \leqslant  T \leqslant 15\right\}$ est égal à l'univers $\Omega$ de cette expérience aléatoire, donc   $\proba{12 \leqslant T \leqslant 15}=1$.
-	\item La probabilité de l'événement A = \og{} \textit{la durée du trajet de Sofia est  inférieure ou égale à $13$ minutes} \fg{} est proportionnelle à la longueur de l'intervalle $\Interff{12}{13}$, égale à $1$. Sachant que $\proba{12 \leqslant T \leqslant 15}=1$ et que la longueur de $\Interff{12}{15}$ est $3$, on a :	
+\pause \item L'événement $\left\{12 \leqslant  T \leqslant 15\right\}$ est égal à l'univers $\Omega$ de cette expérience aléatoire, donc   $\proba{12 \leqslant T \leqslant 15}=1$.
+	\pause \item La probabilité de l'événement A = \og{} \textit{la durée du trajet de Sofia est  inférieure  à $13$ minutes} \fg{} est proportionnelle à la longueur de l'intervalle $\Interfo{12}{13}$, égale à $1$. Sachant que $\proba{12 \leqslant T \leqslant 15}=1$ et que la longueur de $\Interff{12}{15}$ est $3$, on a :	
 \begin{equation*}
-\proba{A}=\proba{12 \leqslant T \leqslant 13}=\frac{13-12}{15-12}=\frac{1}{3}
+\proba{A}=\proba{12 \leqslant T < 13}=\frac{13-12}{15-12}=\frac{1}{3}
 \end{equation*}
 
 
@@ -694,7 +694,7 @@ L'espérance de $T$, durée moyenne du trajet de Sofia, peut être estimée ains
 \pause			\begin{equation*}
 \int_{12}^{15}tf(t)\text{dt}=\int_{12}^{15}\frac{t}{3}\text{dt}=\frac{1}{3}\left[\frac{t^{2}}{2 \times (15-12)}\right]_{12}^{15}=\frac{15+12}{2} = 13,5 
 		\end{equation*}
-On trouver le centre de l'intervalle $\Interff{12}{15}$ ce qui et conforme à l'intuition.
+On trouve le centre de l'intervalle $\Interff{12}{15}$ ce qui est conforme à l'intuition.
 
 
 
@@ -734,13 +734,8 @@ $f$ est donc bien une fonction de densité de probabilité.
 F'(t)=0-2\text{e}^{-2t}+2(2t+1)\text{e}^{-2t}=4t\text{e}^{-2t}=f(t)
 \end{equation*}
 
-\pause \item La fonction  $f$ définie sur $\Interfo{0}{+\infty}$ par $f(t)=4t\text{e}^{-2t}$ est dérivable donc continue sur $\Interfo{0}{+\infty}$ et  elle est positive sur cet intervalle. 
 
-De plus pour tout réel $x\geqslant 0$, on a $\integralet{0}{x}{f(t)}=F(x)-F(0)= 1-(2x+1)\text{e}^{-2x}$ et $\limite{+\infty}{F(x)}=1$ par composition et somme. On a donc bien $\lim\limits_{x\to +\infty}\integralet{0}{x}{f(t)}=1$.
 
-$f$ est donc  une fonction de densité de probabilité sur $\R^{+}$.
-\pause \item Soit $X$ une variable aléatoire de densité $f$, on a :
-$$P\left(2<X<3\right)=\int_{2}^{3}f(t)\text{dt}=F(3)-F(2)=5\text{e}^{-4}-7\text{e}^{-6}$$
 \end{itemize}
 
 
@@ -749,23 +744,37 @@ $$P\left(2<X<3\right)=\int_{2}^{3}f(t)\text{dt}=F(3)-F(2)=5\text{e}^{-4}-7\text{
 
 \begin{frame}
 
-\frametitle{Exemple 2 : Partie 1}
+\frametitle{Exemple 2 : Partie 2}
 
  Soit $F$ la fonction définie sur $\R^{+}$ par $F(t)=1-(2t+1)\text{e}^{-2t}$.
  
 \begin{itemize}
-\item La fonction  $f$ définie sur $\Interfo{0}{+\infty}$ par $f(t)=4t\text{e}^{-2t}$ est dérivable donc continue sur $\Interfo{0}{+\infty}$ et  elle est positive sur cet intervalle. 
+\pause \item La fonction  $f$ définie sur $\Interfo{0}{+\infty}$ par $f(t)=4t\text{e}^{-2t}$ est dérivable donc continue sur $\Interfo{0}{+\infty}$ et  elle est positive sur cet intervalle. 
 
 De plus pour tout réel $x\geqslant 0$, on a $\integralet{0}{x}{f(t)}=F(x)-F(0)= 1-(2x+1)\text{e}^{-2x}$ et $\limite{+\infty}{F(x)}=1$ par composition et somme. On a donc bien $\lim\limits_{x\to +\infty}\integralet{0}{x}{f(t)}=1$.
 
 $f$ est donc  une fonction de densité de probabilité sur $\R^{+}$.
+
+\end{itemize}
+
+
+\end{frame}
+
+
+
+\begin{frame}
+
+\frametitle{Exemple 2 : Partie 3}
+
+ 
+\begin{itemize}
+
 \pause \item Soit $X$ une variable aléatoire de densité $f$, on a :
 $$P\left(2<X<3\right)=\int_{2}^{3}f(t)\text{dt}=F(3)-F(2)=5\text{e}^{-4}-7\text{e}^{-6}$$
 \end{itemize}
 
 
 \end{frame}
-
 
 
 \begin{frame}
@@ -845,12 +854,36 @@ Autrement dit, la probabilité qu'un melon du maraîcher soit conforme est $0,75
 Comme la variable aléatoire $M$ suit une loi uniforme sur $[ 850~,~x ]$, on a\\
 $P\left ( M \in [ 900~,~\np{1200}]  \right ) = \dfrac{\np{1200}-900}{x-850}$.
 
+
+
+\end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}
+
+\frametitle{Exemple 4 : Partie 1}
+
+
+
+\begin{itemize}
+
+ \item Le détaillant constate que 75\,\% des melons du maraîcher sont conformes. %Déterminer $x$.
+
+Autrement dit, la probabilité qu'un melon du maraîcher soit conforme est $0,75$; on a donc $P\left ( M \in [ 900~,~\np{1200}] \right ) = 0,75$.
+
+Comme la variable aléatoire $M$ suit une loi uniforme sur $[ 850~,~x ]$, on a\\
+$P\left ( M \in [ 900~,~\np{1200}]  \right ) = \dfrac{\np{1200}-900}{x-850}$.
+
 On en déduit que $\dfrac{\np{1200}-900}{x-850} = 0,75$ ce qui équivaut à
 $300 = 0,75x - 637,5$ ou à $937,5 = 0,75x$ c'est-à-dire $x=\np{1250}$.
 
 \end{itemize}
 
 \end{frame}
+
 
 
 \begin{frame}
@@ -1119,7 +1152,7 @@ Soit  $X $une variable aléatoire suivant la loi normale centrée réduite la lo
 
 \begin{itemize}
 \item $\text{P}\left( X \leqslant 2 \right)=?$
-\pause \item $\text{P}\left( X \leqslant 2 \right)=1- \text{P}\left(X>2 \right)=1- \text{P}\left(X\leqslant -2 \right \approx 0,977$ par  symétrie.
+\pause \item $\text{P}\left( X \leqslant 2 \right)=1- \text{P}\left(X>2 \right)=1- \text{P}\left(X\leqslant -2 \right) \approx 0,977$ par  symétrie.
 \item $\text{P}\left(-1 < X \leqslant 2 \right)=?$
 \pause \item $\text{P}\left(-1 < X \leqslant 2 \right)=\text{P}\left( -2<X<1 \right)\approx 0,818$
 \end{itemize}
