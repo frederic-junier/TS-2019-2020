@@ -55,5 +55,6 @@ Documents pour ma  classe de terminale S
   - [Séance du 02-04-2020](ContinuitePedagogique/seance-02-04-2020.md)
   - [Séance du 06-04-2020](ContinuitePedagogique/seance-06-04-2020.md)
   - [Séance du 07-04-2020](ContinuitePedagogique/seance-07-04-2020.md)
+  - [Séance du 08-04-2020](ContinuitePedagogique/seance-08-04-2020.md)
  
  
