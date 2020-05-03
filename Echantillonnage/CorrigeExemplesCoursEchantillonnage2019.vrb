@@ -1,0 +1,19 @@
+
+\frametitle{Exemple 2 : Intervalle de fluctuation  asymptotique (0/5)}
+
+\begin{lstlisting}
+from scipy.stats import  norm
+from math import sqrt
+
+def invNorm(s):
+    """Retourne  u tel que que P(X <= u)= s si X suit la loi  N(0,1)"""
+    return norm.ppf(s)
+
+
+def if_asymptotique(n, p, s=0.95):
+    u = invNorm((1 + s) / 2)
+    binf = p - u * np.sqrt(p * (1 - p) / n)
+    bsup = p + u * np.sqrt(p * (1 - p) / n)
+    return [binf, bsup]
+\end{lstlisting}
+
