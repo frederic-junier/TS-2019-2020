@@ -83,7 +83,7 @@ Documents pour ma  classe de terminale S
   * [Manuel numérique en ligne](https://mep-outils.sesamath.net/manuel_numerique/index.php?ouvrage=mstsobl_2016&page_gauche=371)
   * [Modalités de l'épreuve de rattrapage et ressources sur Maths 93](https://www.math93.com/divers/corriges-du-bac-et-actualite-en-maths/1012-bac-2020-les-oraux-de-rattrapage-du-bac-en-mathematiques.html#deroulement)
   * [Classe virtuelle Wims](https://wims.math.cnrs.fr/wims/wims.cgi?session=CE1927D018.3&+module=home&+cmd=new&+lang=fr)
-  * [Mes sujets d'oraux (anciens)](Oral/SujetsOrauxJunier2018.pdf) 
+  * [Des sujets d'oraux (anciens)](Oral/SujetsOrauxJunier2018.pdf) 
   * [Annales du Bac S avec corrigés](https://www.apmep.fr/-Terminale-S-266-sujets-depuis-)
   * [Ma Classe à la maison du CNED (se créer un compte d'abord)](https://lycee.cned.fr/login/index.php)
   * [Site d'Yvan Monka](https://maths-et-tiques.fr/)
